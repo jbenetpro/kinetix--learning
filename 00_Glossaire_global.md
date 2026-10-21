@@ -22,4 +22,17 @@
 
 ---
 
-*(Les modules suivants ajouteront leurs propres sections ici : OMS, WMS, TMS, APS/ERP/WCS, IA, etc.)*
+## Module : OMS
+
+| Terme | Définition |
+|---|---|
+| **Allocation (règle d'allocation)** | Règle appliquée par l'OMS pour choisir la source (entrepôt, magasin, fournisseur) qui va honorer une commande, selon des critères comme la proximité, le niveau de stock, le coût ou le délai. |
+| **ATS (Available to Sell / stock disponible à la vente)** | Quantité de stock qu'un système considère comme réellement disponible pour être vendue, après déduction des réservations, blocages ou commandes en cours. |
+| **ERP (Enterprise Resource Planning)** | Système de gestion qui centralise les référentiels de l'entreprise (articles, clients, comptabilité, stock théorique global). |
+| **Omnicanalité** | Capacité à permettre au client d'acheter et de se faire livrer ou retirer sa commande indifféremment via plusieurs canaux (site web, application, magasin), avec une expérience cohérente. |
+| **OMS (Order Management System)** | Système qui centralise et orchestre les commandes, de leur création jusqu'à leur affectation à une source de préparation ou d'expédition. |
+| **Orchestration (des commandes)** | Action de décider, pour chaque commande, quelle source va la préparer et comment elle sera livrée ou retirée, en coordonnant les différents canaux et sources d'exécution. |
+
+---
+
+*(Les modules suivants ajouteront leurs propres sections ici : WMS, TMS, APS/ERP/WCS, IA, etc.)*
