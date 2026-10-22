@@ -135,6 +135,25 @@
 | **Trieur** | Équipement qui oriente automatiquement chaque colis vers sa destination (commande, quai, transporteur). |
 | **WES (Warehouse Execution System)** | Système qui combine, à des degrés variables, des fonctions de WMS et de WCS pour coordonner l'exécution des opérations d'un entrepôt, notamment mécanisé. |
 
+## Module : Overview IA
+
+| Terme | Définition |
+|---|---|
+| **Agent (IA)** | Système où un modèle d'IA, à partir d'un objectif, enchaîne des étapes (planifier, utiliser des outils, observer, ajuster) avec plus ou moins d'autonomie, généralement avec des validations humaines aux étapes sensibles. |
+| **Appel d'outils (tool use)** | Mécanisme par lequel un modèle d'IA demande l'exécution d'un outil (consulter une base, lancer un calcul, interroger un système) dont le résultat revient dans la conversation. |
+| **Apprentissage automatique (machine learning)** | Famille de techniques d'IA qui apprennent à partir de données plutôt que d'être programmées règle par règle (prévision, classification, détection d'anomalies). |
+| **Biais (IA)** | Tendance d'un modèle à reproduire ou amplifier des déséquilibres présents dans ses données d'entraînement. |
+| **Fenêtre de contexte** | Quantité de texte qu'un modèle peut prendre en compte à un instant donné (consigne, documents fournis, conversation) ; ce qui n'y figure pas, il ne le voit pas. |
+| **Hallucination** | Réponse d'un modèle d'IA fausse mais présentée avec aplomb (chiffre inventé, source inexistante, règle qui n'existe pas). |
+| **Humain dans la boucle** | Principe selon lequel une personne valide les décisions ou actions sensibles d'un système d'IA avant leur exécution. |
+| **IA (intelligence artificielle)** | Ensemble de techniques permettant à une machine d'accomplir des tâches associées à l'intelligence humaine (prévoir, classer, comprendre, décider, générer). |
+| **IA générative** | IA capable de produire du contenu (texte, image, code, tableau) à partir d'une consigne. |
+| **LLM (Large Language Model)** | Grand modèle de langage entraîné sur de très nombreux textes pour prédire la suite la plus probable d'un texte ; produit des réponses plausibles mais pas nécessairement exactes. |
+| **MCP (Model Context Protocol)** | Standard ouvert permettant de connecter des modèles d'IA à des outils et à des sources de données de façon uniforme. |
+| **RAG (Retrieval-Augmented Generation)** | Technique qui recherche des passages pertinents dans une base de documents de l'entreprise puis les fournit au modèle pour qu'il réponde en s'appuyant dessus. |
+| **Règlement européen sur l'IA (AI Act)** | Règlement de l'Union européenne qui encadre les systèmes d'IA en graduant les obligations selon leur niveau de risque. |
+| **Token (jeton)** | Morceau de texte (mot ou partie de mot) traité par un modèle de langage ; la longueur des textes et des contextes se mesure en tokens. |
+
 ---
 
-*(Les modules suivants ajouteront leurs propres sections ici : ESB, IA, etc.)*
+*(Les modules suivants ajouteront leurs propres sections ici : ESB, prompting, etc.)*
