@@ -6,6 +6,7 @@ Contenus d'une application de formation e-learning supply chain, destinée au pa
 
 - `00_Glossaire_global.md` : glossaire unique et cumulatif. Chaque module y ajoute ses termes, dans une section dédiée, par ordre alphabétique.
 - `NN_<Titre_du_module>.md` : un storyboard par module, numéroté dans l'ordre du parcours.
+- `schemas/` : schémas anonymes (SVG) référencés par les storyboards, sans nom de client, de prestataire ni de site réel.
 
 Conventions de contenu :
 - Rédaction en français.

@@ -129,16 +129,27 @@
 
 ### Écran 7 — Exemple d'entrepôt mécanisé : lecture d'un plan de flux
 **Contenu clé :**
-- Exemple pédagogique d'un entrepôt sur **deux niveaux** (à adapter au plan réel) :
-  - **Niveau 1** : mise en bac et réapprovisionnement des stocks dynamiques, **gare de picking** (zone où les bacs arrivent pour le prélèvement), convoyeurs de transport, point d'**encamionnement** (tri vers le chargement).
-  - **Niveau 2** : stocks dynamiques, postes **GTP**, **pesée** de contrôle, voie de **rejet** (colis non conformes), **fermeture** des cartons, étiquetage d'expédition.
-- **Points de lecture** : des lecteurs de codes-barres identifient chaque bac ou colis aux points de décision ; à chaque point, le WCS choisit la direction (aiguillage).
-- **Points de communication** : à chaque zone correspond un échange avec le WCS (arrivée, départ, incident).
-- Compétence visée : savoir **lire un plan** (zones, points de lecture, points de décision, rejets) pour comprendre où un colis peut être bloqué.
+- Plan **fictif et simplifié** d'un entrepôt mécanisé sur **deux niveaux** (aucun site réel), pour apprendre à lire un plan de flux :
 
-**Visuel suggéré :** Plan simplifié à deux niveaux avec zones légendées, points de lecture (pastilles) et voies de rejet ; exercice interactif « où se trouve le colis ? ».
+![Plan de flux simplifié d'un entrepôt mécanisé (exemple fictif)](schemas/07_WCS_plan_entrepot_mecanise.svg)
 
-**Note formateur :** À remplacer par un plan fictif propre au module (le plan d'origine du support est celui d'un site réel et ne doit pas être repris).
+- **Niveau 1 — Entrée et stockage** :
+  1. **Réception et mise en bac** : les articles reçus sont placés dans des bacs.
+  2. **Stockage automatisé** : le système range les bacs ; le WMS sait où, le WCS exécute.
+  Un **convoyeur montant** amène ensuite les bacs demandés vers le niveau 2.
+- **Niveau 2 — Préparation et expédition** :
+  3. **Poste de prélèvement (GTP)** : le bac arrive à l'opérateur, qui prélève la quantité demandée.
+  4. **Pesée de contrôle** : le poids est comparé au poids attendu ; un colis **conforme** continue, un colis **non conforme** part en **voie de rejet** pour un traitement manuel.
+  5. **Fermeture du carton**.
+  6. **Étiquetage d'expédition**.
+  7. **Tri par destination** vers les quais d'expédition, où se fait le chargement.
+- **Points de lecture** (pastilles bleues) : un lecteur de codes-barres identifie chaque bac ou colis.
+- **Points de décision** (losanges orange) : à partir de l'identification, le WCS choisit la direction (conforme / rejet, quelle voie de tri).
+- Compétence visée : savoir **lire un plan** (étapes, points de lecture, points de décision, rejet) pour localiser où un colis peut être bloqué et à quel niveau le chercher (stock, prélèvement, pesée, tri).
+
+**Visuel :** `schemas/07_WCS_plan_entrepot_mecanise.svg` — schéma anonyme, sans nom de client, de prestataire ni de site ; à utiliser tel quel ou à reprendre dans la charte graphique de l'application.
+
+**Activité suggérée :** « Où se trouve le colis ? » — l'apprenant désigne sur le plan l'endroit probable d'un blocage à partir d'un symptôme (colis non lu, poids anormal, bac qui n'arrive pas au poste).
 
 **[Exemple réel à intégrer]** — un cas où la lecture du plan a permis de localiser rapidement la cause d'un blocage (anonymisé).
 
@@ -270,7 +281,7 @@
 Les termes de ce module ont été ajoutés au [glossaire global](00_Glossaire_global.md) de la formation.
 
 ## Points ouverts / à valider avec toi
-1. **Plan de mécanisation (écran 7)** : le plan du support est celui d'un site réel ; il n'est pas repris. Un plan fictif est à produire ou à valider.
+1. **Plan de mécanisation (écran 7)** : un schéma fictif et simplifié a été créé (`schemas/07_WCS_plan_entrepot_mecanise.svg`), sans aucun élément du plan réel du support ; à valider (niveaux, étapes, vocabulaire).
 2. **Écran 13** : pas de quadrant d'analyste indépendant trouvé pour les WCS. La carte par famille repose sur des guides de marché et pages de fournisseurs (non indépendants). Souhaites-tu garder cette représentation, ou plutôt un autre format ?
 3. **Fournisseurs du support** (écran 13) : les deux solutions comparées dans le cours (robots mobiles sur racks, tour automatisée) sont citées dans la bande « stockage automatisé ». Le cours mentionne aussi d'autres exemples de solutions ; à compléter si besoin.
 4. **Parties complétées hors support** : écrans 5 (échanges), 10 (projet), 11 (incidents et limites), 12 (ouverture) à faire relire par un expert entrepôt / mécanisation.
