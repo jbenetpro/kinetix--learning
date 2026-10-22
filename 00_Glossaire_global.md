@@ -84,6 +84,28 @@
 | **TMS chargeur / TMS transporteur** | Le TMS chargeur est dédié aux expéditeurs et communique avec leurs systèmes (ERP, OMS, WMS) ; le TMS transporteur est dédié aux transporteurs et communique avec le TMS chargeur. |
 | **TMS (Transport Management System)** | Système qui optimise la gestion du transport des commandes : choix du mode et du transporteur, planification, documents, suivi jusqu'à la livraison. |
 
+## Module : APS
+
+| Terme | Définition |
+|---|---|
+| **APS (Advanced Planning System)** | Système de planification qui prévoit la demande et optimise les approvisionnements, la production éventuelle et la répartition des stocks (combien, où, quand), en tenant compte des contraintes. Il recommande et simule ; il n'exécute pas. |
+| **Conditionnement minimum / quantité minimale de commande** | Quantité minimale qu'un fournisseur accepte de livrer ou vend par lot (carton, palette), qui limite la précision des commandes d'approvisionnement. |
+| **Couverture de stock** | Nombre de jours de vente que le stock actuel permet de couvrir, au rythme de la demande prévue. |
+| **Délai d'approvisionnement (lead time)** | Temps écoulé entre la commande d'un produit et sa disponibilité en stock. |
+| **Erreur de prévision** | Écart entre la demande prévue et la demande réelle, utilisé pour mesurer et améliorer la qualité des prévisions. |
+| **Horizon de planification** | Période couverte par un plan : stratégique (mois à années), tactique (semaines à mois) ou opérationnel (jours à semaines). |
+| **Prévision de la demande (demand planning)** | Estimation de ce qui sera demandé, par produit, site et période, à partir de l'historique, de la saisonnalité et des événements. C'est une hypothèse, validée et corrigée par les équipes. |
+| **Réapprovisionnement (réassort)** | Alimentation d'un site (magasin, entrepôt) en stock à partir d'un site central ou d'un fournisseur, selon des règles de seuil, de couverture ou de prévision. |
+| **Rééquilibrage de stock (repositionnement)** | Déplacement de stock d'un site en surstock vers un site en risque de rupture, via des ordres de transfert exécutés par le WMS et le TMS. |
+| **Rotation des stocks** | Nombre de fois où le stock est renouvelé sur une période ; indicateur de la vitesse d'écoulement. |
+| **Rupture de stock** | Situation où un produit demandé n'est pas disponible. |
+| **S&OP (Sales & Operations Planning)** | Processus régulier (souvent mensuel) où commercial, finance, achats et opérations s'accordent sur un plan unique de ventes, d'approvisionnement et de livraison. |
+| **Scénario (what-if)** | Simulation d'une décision ou d'un aléa (promotion, retard fournisseur, fermeture de site) pour comparer ses effets sur le service, le coût et la charge. |
+| **SRM (Supplier Relationship Management)** | Gestion de la relation fournisseurs : contrats, conditions, quantités minimales, coûts de passation. Souvent rattachée à l'ERP et alimentée par l'APS. |
+| **Stock de sécurité** | Stock tampon conservé pour absorber les aléas de demande et de délai et limiter le risque de rupture. |
+| **Surstock** | Stock supérieur au besoin prévisible, qui immobilise de la trésorerie et peut devenir obsolète. |
+| **Taux de service** | Part des demandes servies à temps et complètes. |
+
 ---
 
-*(Les modules suivants ajouteront leurs propres sections ici : APS/ERP/WCS, IA, etc.)*
+*(Les modules suivants ajouteront leurs propres sections ici : ERP, ESB, WCS, IA, etc.)*
