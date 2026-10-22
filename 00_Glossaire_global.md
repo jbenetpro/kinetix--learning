@@ -45,6 +45,32 @@
 | **Sourcing** | Choix, pour une commande, du ou des lieux (entrepôt, magasin, fournisseur) qui vont la préparer, selon des critères comme le stock, le délai, le coût et la route logistique. |
 | **Split de commande** | Répartition d'une commande sur plusieurs sources (ex. 2 articles + 2 articles) lorsqu'aucun lieu seul ne peut la servir en totalité. Génère plusieurs fulfilments. |
 
+## Module : WMS
+
+| Terme | Définition |
+|---|---|
+| **Allocation de stock (entrepôt)** | Affectation, par le WMS, d'un stock précis (emplacement, palette, carton) à une commande ou à une vague de préparation. À distinguer de l'allocation de l'OMS, qui choisit le site. |
+| **ASN (Advanced Shipping Notice / avis d'expédition)** | Message annonçant au WMS ce qui va être reçu (palettes, colis, articles, quantités). L'ASN passe « en transit » puis est clôturé à la réception. |
+| **Chargement et bordereau d'expédition** | Le chargement est la mise des palettes ou colis consolidés dans le camion ; le bordereau d'expédition (*bill of lading*) reprend l'expéditeur, la date, le numéro de chargement, le contenu, le numéro de plomb et les signatures. |
+| **Consolidation** | Regroupement, dans une zone dédiée, des colis ou commandes préparés (par exemple sur une même palette ou pour un même chargement) avant l'expédition. |
+| **Cubing** | Calcul du volume et de l'emballage permettant d'utiliser au mieux la capacité d'un colis ou d'une palette (par exemple préparer une palette jusqu'à son volume maximal). S'appuie sur les dimensions des articles. |
+| **Flux nominal / flux spécifique** | Le flux nominal (standard) est le fonctionnement proposé par l'éditeur ; le flux spécifique est une adaptation aux besoins d'une entreprise (volumes, niveau de contrôle, type de produit). |
+| **GTP (Goods-to-Person)** | Mode de prélèvement où le produit est amené à l'opérateur par un équipement automatisé, au lieu que l'opérateur se déplace vers le produit. |
+| **iLPN / oLPN (License Plate Number)** | Identifiant unique d'un colis ou d'une palette dans le WMS : « i » pour entrant (*inbound*, reçu), « o » pour sortant (*outbound*, préparé pour la commande). |
+| **Image de stock** | Photographie du stock d'un site, transmise périodiquement par le WMS aux autres systèmes (ERP, OMS, reporting). |
+| **Inventaire** | Comptage physique du stock pour le comparer au stock du système et corriger les écarts. |
+| **Ordonnancement** | Contrôle du programme de préparation de l'entrepôt selon des paramètres et délais établis, pour garantir un coût minimal : sélection des commandes, capacité, allocation, cubing, routing, consolidation, création des tâches, impression. |
+| **Ordre de distribution (DO)** | Message envoyé par le système hôte (ERP ou OMS) au WMS pour demander la préparation d'une commande ou d'un transfert depuis l'entrepôt. |
+| **Picking (PAP / PTP)** | Prélèvement des articles. PAP (*Pick and Pack*) : on prélève directement dans le colis final. PTP (*Pick then Pack*) : on prélève d'abord, on emballe ensuite après ventilation. |
+| **PIX (Perpetual Inventory Transaction)** | Message généré par le WMS pour chaque modification de stock dans l'entrepôt (réception, rangement, prélèvement, expédition...). Terme d'éditeur, aussi appelé transaction ou mouvement d'inventaire. |
+| **Règles inbound** | Règles qui précisent, à la réception, quels colis sont contrôlés et comment ils sont traités (par fournisseur, article, valeur...). |
+| **Réserve et zone de picking** | La réserve stocke des palettes complètes ; la zone de picking (active) stocke ce qui est prélevé souvent, en carton ou à la pièce, et est réapprovisionnée depuis la réserve. |
+| **SKU (Stock Keeping Unit)** | Référence d'un article géré en stock. |
+| **Terminal RF** | Terminal portable à lecteur de codes-barres relié en radiofréquence au WMS, utilisé par l'opérateur pour scanner et valider chaque geste. |
+| **Vague (de préparation)** | Lot de commandes lancé ensemble en préparation, constitué selon des règles de sélection et de capacité. |
+| **WCS (Warehouse Control System)** | Système qui pilote les équipements automatisés d'un entrepôt (convoyeurs, robots, trieurs...), orchestre les flux physiques et se synchronise avec le WMS. |
+| **WMS (Warehouse Management System)** | Système qui gère les stocks, l'ordonnancement et la préparation des commandes au sein de l'entrepôt, en temps réel. |
+
 ---
 
-*(Les modules suivants ajouteront leurs propres sections ici : WMS, TMS, APS/ERP/WCS, IA, etc.)*
+*(Les modules suivants ajouteront leurs propres sections ici : TMS, APS/ERP/WCS, IA, etc.)*
