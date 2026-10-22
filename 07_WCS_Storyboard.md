@@ -147,6 +147,15 @@
 - **Points de décision** (losanges orange) : à partir de l'identification, le WCS choisit la direction (conforme / rejet, quelle voie de tri).
 - Compétence visée : savoir **lire un plan** (étapes, points de lecture, points de décision, rejet) pour localiser où un colis peut être bloqué et à quel niveau le chercher (stock, prélèvement, pesée, tri).
 
+
+- **Règles aux points de décision** (à définir avec le métier) :
+  - **Identifier avant de décider** : un colis non lu suit une règle par défaut (en général la voie de rejet).
+  - **Ordre de priorité** : sécurité, conformité (rejet), priorité de la commande, destination fixée par le WMS, équilibrage de charge, règle par défaut.
+  - **Après la pesée** : comparaison du poids réel au poids attendu avec une **tolérance** (par famille d'articles) ; hors tolérance ou poids attendu absent → voie de rejet avec code de motif.
+  - **Avant le tri** : le colis est dirigé vers la voie de sa destination ; voie pleine → recirculation un nombre limité de fois, puis voie de dégagement ; destination inconnue → voie de dégagement.
+  - **Décider à temps, ne jamais bloquer la ligne** : si le WMS tarde à répondre, une règle de repli s'applique ; chaque décision est **tracée** (colis, heure, règle, motif) et le motif de rejet est renvoyé au WMS ; aucun colis ne doit rester sans voie de sortie.
+- **Rôle du RPTL — détenteur de la connaissance d'usage** : en exploitation normale, c'est lui qui connaît les règles qui marchent (tolérances réalistes, priorités par type de commande, traitement des rejets) et qui les **optimise** au fil de l'usage. Dans un **projet IT**, il **fournit ces règles** lors du design et les **teste après l'installation** (tests physiques, recette métier, hypercare), notamment en conditions de pointe.
+
 **Visuel :** `schemas/07_WCS_plan_entrepot_mecanise.svg` — schéma anonyme, sans nom de client, de prestataire ni de site ; à utiliser tel quel ou à reprendre dans la charte graphique de l'application.
 
 **Activité suggérée :** « Où se trouve le colis ? » — l'apprenant désigne sur le plan l'endroit probable d'un blocage à partir d'un symptôme (colis non lu, poids anormal, bac qui n'arrive pas au poste).
@@ -190,7 +199,7 @@
 - Il mêle **IT** (interfaces WMS/WCS, paramétrage, développement, tests) et **physique** (génie civil, implantation, installation des équipements, sécurité, formation).
 - Phases à rappeler : cadrage, design, build, recettes — avec en plus des **tests physiques** (essais des équipements avec de vrais colis), préparation (formation, cutover), mise en production, **hypercare**, run.
 - **Run** : maintenance des équipements et du logiciel, **astreintes**, plan d'amélioration continue (par exemple réglage de règles de tri ou de charge).
-- Rôle du RPTL : **key user** (référent métier) ; scénarios réels (pics, cas limites : colis hors gabarit, article fragile) ; mobilisation des équipes pour les tests physiques ; conduite du changement.
+- Rôle du RPTL : **key user** et **détenteur de la connaissance d'usage** : il **fournit les règles métier** (tolérances, priorités, traitement des rejets, scénarios réels : pics, colis hors gabarit, article fragile) lors du design, puis **les teste après l'installation** (tests physiques, recette métier, hypercare) ; il mobilise les équipes et accompagne le changement.
 - Point d'attention : la mécanisation **change les métiers** (moins de marche, plus de supervision et de maintenance) ; l'accompagnement des équipes fait partie du projet.
 
 **Visuel suggéré :** Frise de projet avec une couche IT et une couche physique en parallèle, et des jalons « tests physiques » et « hypercare » mis en évidence.
@@ -203,7 +212,7 @@
 - **Mode dégradé** : procédure de **secours** pour continuer à travailler (par exemple prélèvement manuel, bascule vers un autre poste) quand une partie est indisponible. Il doit être **défini à l'avance**, connu des équipes et testé.
 - **Limites du WCS** : il ne décide pas **quoi** préparer (WMS), n'orchestre pas les commandes entre sites (OMS), ne planifie pas le transport (TMS) ; il dépend de la **fiabilité mécanique** des équipements, de la **qualité des lectures** (étiquettes) et de la **qualité des données articles** (dimensions, poids).
 - **Vérifier avant d'agir** : avant de conclure à un « bug WCS » quand un colis est bloqué ou rejeté, distinguer dans l'ordre : **panne mécanique** (équipement, capteur) ; **lecture** (étiquette illisible) ; **donnée article** (poids ou dimensions erronés qui déclenchent un rejet) ; **ordre du WMS** (incorrect ou non reçu) ; **état du WCS** (en erreur ou arrêté).
-- Rôle du RPTL : savoir **qui appeler** (maintenance, IT, éditeur), appliquer le mode dégradé, tracer l'incident.
+- Rôle du RPTL : savoir **qui appeler** (maintenance, IT, éditeur), appliquer le mode dégradé, tracer l'incident ; en exploitation normale, **optimiser les règles métier** à partir de ce que l'usage révèle (rejets trop fréquents, tolérances trop strictes, voies saturées) et les faire évoluer par le circuit de changement.
 
 **Visuel suggéré :** Arbre de diagnostic « colis bloqué : mécanique / lecture / donnée / ordre WMS / WCS » + mini-cas interactif (QCM court), distinct du quiz final.
 
@@ -256,7 +265,7 @@
 7. (QCM) Qu'est-ce qu'un mode dégradé et pourquoi doit-il être défini à l'avance ?
 8. (Mise en situation) Un convoyeur s'arrête : citer l'ordre des vérifications avant d'incriminer le logiciel.
 9. (QCM) Quelle différence entre une solution de robots mobiles sur racks et une tour automatisée (cas d'usage) ?
-10. (Vrai/Faux) Un projet de mécanisation est uniquement un projet informatique.
+10. (Mise en situation) Dans un projet de mécanisation, qui fournit les règles de décision (tolérances de poids, priorités, traitement des rejets) et à quel moment sont-elles testées ?
 
 **Note formateur :** Feedback explicatif après chaque réponse. Seuil de réussite : 8/10 bonnes réponses minimum.
 
@@ -268,7 +277,7 @@
 - Le WCS pilote les équipements automatisés et orchestre les flux physiques ; le WMS décide quoi, où, quand ; le WCS décide comment.
 - Il échange avec le WMS (ordres, confirmations) et avec les automates, en temps réel.
 - Un colis traverse un entrepôt mécanisé avec des points de lecture, de décision et de contrôle ; le WCS confirme chaque étape au WMS.
-- Un projet de mécanisation mêle IT et physique ; incidents et modes dégradés se préparent à l'avance.
+- Un projet de mécanisation mêle IT et physique : le RPTL, détenteur de la connaissance d'usage, fournit les règles métier et les teste après l'installation ; incidents et modes dégradés se préparent à l'avance.
 - « Vérifier avant d'agir » : mécanique, lecture, donnée article, ordre WMS, état du WCS.
 
 **Call-to-action :** Transition vers le module suivant. "Pour que tous ces systèmes se parlent, voyons l'intégration."
@@ -288,3 +297,4 @@ Les termes de ce module ont été ajoutés au [glossaire global](00_Glossaire_gl
 5. **Exemples réels** (écrans 1, 7, 11) à fournir, anonymisés, sans nom de client ni de projet.
 6. **Module suivant** : l'ouverture annonce un module d'intégration (ESB) à confirmer dans le plan.
 7. Les 10 questions du quiz sont à finaliser (réponses/options complètes + feedbacks).
+8. **Règles aux points de décision (écran 7)** : règles génériques (identification, priorités, tolérances de pesée, recirculation, repli) à faire valider par un expert mécanisation ; tolérances et nombre de recirculations à fixer par site.
