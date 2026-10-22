@@ -1,7 +1,7 @@
 # Module e-learning — OMS (Order Management System)
 **Formation :** Responsable de Production Transport et Logistique (RPTL) — Bac+3
-**Sous-titre du module :** Rôle, commande et fulfilment, stock et promesse, fallback, exceptions, omnicanalité, marché et ouverture vers le CMS
-**Durée cible :** 40–50 min (module dense — à découper en 2 séquences si besoin)
+**Sous-titre du module :** Rôle, commande et fulfilment, stock et promesse, fallback, exceptions, omnicanalité et marché
+**Durée cible :** 35–45 min (module dense — à découper en 2 séquences si besoin)
 **Public :** Apprenants RPTL ou métiers proches (responsable entrepôt, affréteur, approvisionneur, coordinateur transport/logistique) — non-IT
 **Statut :** 🔴 À créer — v2 storyboard (intègre les notions du support existant : ATS/ATP, fulfilment, promesse, fallback, exceptions)
 
@@ -19,11 +19,10 @@
 6. Décrire comment sont gérées les **exceptions de processus** : quelles règles suivre pour débloquer une commande hors du « happy path ».
 7. Expliquer l'enjeu de l'omnicanalité et identifier les limites d'un OMS.
 8. Avoir une vue du marché des éditeurs OMS et réappliquer le réflexe « vérifier avant d'agir ».
-9. Faire le lien entre la gestion de stock d'un CMS et la visibilité de stock d'un OMS (qui calcule, qui affiche).
 
 ---
 
-## Plan du module (14 écrans + quiz + synthèse)
+## Plan du module (13 écrans + quiz + synthèse)
 
 | # | Écran | Durée estimée |
 |---|-------|----------------|
@@ -40,9 +39,8 @@
 | 11 | Les limites de l'OMS | 3 min |
 | 12 | Vérifier avant d'agir — appliqué à la gestion de commandes | 2 min |
 | 13 | Panorama du marché des OMS | 3 min |
-| 14 | Ouverture : du stock du CMS à la visibilité de stock de l'OMS | 3 min |
-| 15 | Quiz de validation (10 questions, 80% requis) | 5 min |
-| 16 | Synthèse et points clés à retenir | 1-2 min |
+| 14 | Quiz de validation (10 questions, 80% requis) | 5 min |
+| 15 | Synthèse et points clés à retenir | 1-2 min |
 
 ---
 
@@ -253,26 +251,7 @@
 
 ---
 
-### Écran 14 — Ouverture : du stock du CMS à la visibilité de stock de l'OMS
-**Contenu clé :**
-- Hypothèse de travail : le **CMS** désigne ici la plateforme qui porte le site de vente (catalogue, contenus, panier). *À confirmer : CMS = plateforme e-commerce / gestion de contenu et de catalogue.*
-- Un CMS embarque en général une **gestion de stock simple** : une quantité par produit (parfois par lieu), qui sert à afficher « disponible / indisponible » et à bloquer la vente en cas de rupture. Suffisant tant que le stock vient d'un seul lieu et que les canaux sont peu nombreux.
-- L'OMS apporte la **visibilité de stock consolidée** : agrégation de tous les lieux, réservations, protections (buffers), ATS puis ATP (écran 6). Le CMS ne voit pas à lui seul tout cela.
-- Le lien à faire : **l'OMS calcule, le CMS affiche.** L'OMS pousse vers le CMS la disponibilité (ATS/ATP) et le CMS la présente au client ; en retour, le CMS transmet les commandes à l'OMS.
-- Points d'attention pour un RPTL et pour le projet :
-  - **Qui est la source de vérité du stock ?** Si CMS et OMS gèrent chacun un stock, les écarts créent des ventes sur du stock inexistant (surventes) ou des ruptures affichées à tort.
-  - **Fréquence et latence** de la mise à jour entre OMS et CMS : plus elle est lente, plus le risque de survente augmente (rappel écran 11).
-  - **Quelle valeur afficher ?** ATS (« je peux vendre maintenant ») ou ATP (« je peux livrer à telle date ») : c'est un choix métier.
-  - Montée en charge : tant que le site est simple, le stock du CMS peut suffire ; dès que l'on multiplie lieux, canaux et scénarios omnicanaux, la visibilité de stock bascule dans l'OMS et le CMS devient un simple consommateur de disponibilité.
-- Lien avec le curriculum : le CMS fera l'objet de sa propre présentation (même grille : rôle, enjeux, limites, marché).
-
-**Visuel suggéré :** Schéma à deux niveaux : en bas, les lieux de stock (entrepôts, magasins, fournisseurs) → OMS (visibilité consolidée, ATS/ATP) → flèche vers le CMS (affichage de la disponibilité) → client ; flèche retour « commande » du CMS vers l'OMS.
-
-**Note formateur :** Écran d'ouverture, hors quiz : il prépare le module CMS et rappelle que la fiabilité de la promesse dépend de la circulation des données entre systèmes.
-
----
-
-### Écran 15 — Quiz de validation (10 questions — 80% requis pour valider)
+### Écran 14 — Quiz de validation (10 questions — 80% requis pour valider)
 **Exemples de questions (à compléter jusqu'à 10) :**
 1. (QCM) Quel est le rôle principal d'un OMS ?
 2. (QCM) Qu'est-ce que l'omnicanalité ?
@@ -289,15 +268,14 @@
 
 ---
 
-### Écran 16 — Synthèse et points clés
-**Contenu clé (rappel en 7 puces) :**
+### Écran 15 — Synthèse et points clés
+**Contenu clé (rappel en 6 puces) :**
 - L'OMS centralise et orchestre les commandes entre canaux de vente et sources d'exécution — il décide, il n'exécute pas.
 - Commande = ce que le client a payé et veut recevoir ; fulfilment = comment on la prépare et la traite (un point d'origine, un point de destination).
 - ATS = stock disponible à la vente maintenant ; ATP = stock promis pour une date. La promesse client combine stock, délai et coût.
 - Le fallback fixe en amont les priorités de sourcing ; la gestion des exceptions fixe les règles pour débloquer ce qui sort du happy path — l'annulation reste le dernier recours.
 - L'omnicanalité multiplie les scénarios de préparation : un RPTL doit en comprendre l'impact sur son activité.
 - L'OMS n'est fiable que si les données terrain qu'il utilise le sont — "vérifier avant d'agir" s'applique pleinement ici.
-- Ouverture : le CMS affiche la disponibilité, l'OMS la calcule à partir de la visibilité de stock consolidée.
 
 **Call-to-action :** Transition vers le prochain module système. "Après l'orchestration des commandes, découvrons comment elles sont exécutées en entrepôt avec le WMS."
 
@@ -313,4 +291,3 @@ Les termes de ce module ont été ajoutés au [glossaire global](00_Glossaire_gl
 2. Les **[Exemple réel à intégrer]** (écrans 1, 4, 9, 10, 12) — cas concrets anonymisés à fournir, sans nom de client ni de projet. L'exemple pédagogique de l'écran 7 (marché étranger / expédition depuis les magasins locaux) est une version anonymisée d'un cas du support : à valider.
 3. Les 10 questions du quiz sont à finaliser (réponses/options complètes + feedbacks).
 4. **Écran 13 (panorama marché)** : notes et avis Gartner non utilisés. Plus aucun quadrant chiffré : carte par famille + Leaders Forrester (à confirmer). Faut-il définir deux axes factuels pour un vrai quadrant ? Quels éditeurs afficher (retirer les outils généralistes ?) ? Liste à compléter (51 produits non relevés).
-5. **Écran 14 (ouverture CMS)** : à valider — CMS = plateforme e-commerce / gestion de contenu et catalogue ? Le contenu correspond-il à l'angle attendu (l'OMS calcule, le CMS affiche) ?
