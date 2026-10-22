@@ -230,20 +230,25 @@
 
 ### Écran 13 — Panorama du marché des OMS
 **Contenu clé :**
-- Expliquer le principe d'un « quadrant d'analystes » (Gartner Magic Quadrant, Forrester Wave...) : une représentation qui positionne les éditeurs d'un marché selon deux axes — généralement la solidité de l'offre actuelle et la vision stratégique — pour donner une photographie du marché à un instant donné. Ce n'est pas un classement de qualité absolu et il évolue chaque année.
-- ⚠️ Point vérifié : Gartner ne publie pas de Magic Quadrant pour l'OMS à ce jour — ce marché (« Distributed Order Management ») y est couvert par un *Market Guide* (liste d'éditeurs reconnus, sans positionnement en quadrant) et par les avis clients Gartner Peer Insights.
-- Référence retenue pour la représentation en quadrant : **Forrester Wave™: Order Management Systems, Q1 2025** (8 éditeurs évalués). Éditeurs reconnus **Leaders** sur cette édition : **Manhattan Associates**, **Kibo**, **Fluent Commerce**.
-  - ⚠️ **À confirmer avant publication** : le détail complet (les 5 autres éditeurs évalués et leur positionnement Strong Performer/Contender) n'est accessible que dans le rapport Forrester payant — à vérifier/compléter avant mise en ligne du module. Une source publique indique IBM (Sterling Order Management) comme Strong Performer, évalué sur informations publiques (à confirmer).
-- Autres éditeurs reconnus sur ce marché par Gartner (liste de référencement Peer Insights, sans positionnement qualité) : OneStock, IBM Sterling Order Management, Adobe Commerce, SAP Order Management Services, Salesforce Order Management, Blue Yonder, Microsoft Dynamics 365 Commerce, parmi une liste plus large.
-- Message clé pour le RPTL : peu importe l'éditeur utilisé sur son site, le rôle et les enjeux de l'OMS restent les mêmes — c'est cette logique qu'il faut maîtriser, pas un outil en particulier. Ce panorama sert à donner un repère sur la diversité et la maturité du marché, pas à recommander un choix.
+- Expliquer le principe d'un « quadrant d'analystes » (Gartner Magic Quadrant, Forrester Wave...) : positionner les éditeurs d'un marché sur deux axes pour donner une photographie à un instant donné. Ce n'est pas un classement de qualité absolu et il évolue chaque année.
+- ⚠️ Point vérifié : Gartner ne publie **pas** de Magic Quadrant pour l'OMS (« Distributed Order Management », DOM). Ce marché y est couvert par un *Market Guide* et par la rubrique **Gartner Peer Insights** (avis clients vérifiés, notes sur 5). L'écran s'appuie donc sur cette rubrique et propose une **représentation pédagogique inspirée du quadrant** : axe horizontal = nombre d'avis clients (présence/notoriété), axe vertical = note moyenne (satisfaction). Ce n'est pas un positionnement Gartner officiel.
+- Éditeurs référencés par Gartner dans cette rubrique (20 premiers sur 71, triés par nombre d'avis ; note moyenne /5 et nombre d'avis) :
+  - **Spécialistes de la gestion de commandes** : OneStock (4,4 — 12 avis), Manhattan Associates, *Active Order Management* (4,6 — 9), IBM, *Sterling Order Management* (4,2 — 6), Fluent Commerce (3,7 — 4), Kibo (4,0 — 3), Proximis, *Planet Distributed Order Management* (5,0 — 2), Blue Yonder, *Order Management & Commerce* (4,0 — 1), Deck Commerce (5,0 — 1), fulfillmenttools (5,0 — 1), HotWax Commerce (4,0 — 1).
+  - **Suites ERP et plateformes de commerce proposant un module de gestion de commandes** : SAP, *Order Management Services* (4,3 — 4), Adobe, *Adobe Commerce* (4,1 — 5), Shopify (4,6 — 5), Shopgate, *Omnichannel Suite* (4,8 — 5), Microsoft, *Dynamics 365 Commerce* (3,4 — 2), Salesforce, *Order Management* (3,0 — 1).
+  - **Outils généralistes de gestion de stock/ERP** référencés mais plus éloignés du cœur de cible : Zoho Inventory (4,0 — 2), Base.com (5,0 — 1), Vinculum, *Vin eRetail* (5,0 — 1).
+  - Hors périmètre logistique pour ce module : Infios OMS (décrit par Gartner pour les services financiers) — à retirer de l'affichage.
+- ⚠️ **Limite à expliquer à l'apprenant** : le nombre d'avis par produit est très faible (de 1 à 12) ; une note de 5,0 sur 1 avis n'a pas de valeur statistique. Ce panorama montre la **diversité des acteurs et des familles de solutions**, pas un classement de qualité.
+- Complément : le **Forrester Wave™ Order Management Systems (Q1 2025)**, évaluation d'analyste avec positionnement, reconnaît comme Leaders Manhattan Associates, Kibo et Fluent Commerce (annonces des éditeurs ; détail complet dans le rapport payant). ⚠️ À confirmer avant publication.
+- Message clé pour le RPTL : peu importe l'éditeur utilisé sur son site, le rôle et les enjeux de l'OMS restent les mêmes — c'est cette logique qu'il faut maîtriser, pas un outil en particulier.
 
-**Visuel suggéré :** Schéma quadrant 2x2 (axes « Offre actuelle » / « Vision stratégique »), les 3 Leaders Forrester positionnés dans le cadran supérieur droit, et un encart listant les autres éditeurs reconnus du marché sans positionnement.
+**Visuel suggéré :** Quadrant 2x2 pédagogique (axes « Nombre d'avis clients » / « Note moyenne »), pastilles colorées par famille (spécialistes / suites et plateformes / outils généralistes), mention bien visible « Représentation inspirée du quadrant — source : Gartner Peer Insights, consultée le 20/10/2026 ».
 
 **Sources à citer à l'écran (note formateur) :**
 - Gartner Peer Insights — Distributed Order Management Systems : https://www.gartner.com/reviews/market/distributed-order-management-systems
-- Forrester Wave™: Order Management Systems, Q1 2025 (rapport Forrester, accès payant pour le détail complet)
+- Gartner Market Guide for Distributed Order Management Systems : https://www.gartner.com/doc/5085931
+- Forrester Wave™: Order Management Systems, Q1 2025 (rapport payant)
 
-**Note formateur :** Ce panorama doit être mis à jour à chaque nouvelle édition du rapport (cadence annuelle environ) — prévoir une relecture de cet écran avant chaque republication du module.
+**Note formateur :** Notes et nombres d'avis évoluent en continu : actualiser les chiffres avant chaque publication. La liste complète compte 71 produits ; seuls les 20 premiers (triés par nombre d'avis) ont été repris — à compléter si besoin.
 
 ---
 
@@ -286,4 +291,4 @@ Les termes de ce module ont été ajoutés au [glossaire global](00_Glossaire_gl
 1. **Durée** : le module est passé de 20–30 min à 35–45 min avec l'intégration des notions du support existant. À découper en 2 séquences (ex : « Commande, stock, promesse » / « Fallback, exceptions, omnicanalité, marché ») ou à alléger ?
 2. Les **[Exemple réel à intégrer]** (écrans 1, 4, 9, 10, 12) — cas concrets anonymisés à fournir, sans nom de client ni de projet. L'exemple pédagogique de l'écran 7 (marché étranger / expédition depuis les magasins locaux) est une version anonymisée d'un cas du support : à valider.
 3. Les 10 questions du quiz sont à finaliser (réponses/options complètes + feedbacks).
-4. **Écran 13 (panorama marché)** : les 8 éditeurs évalués dans le Forrester Wave OMS Q1 2025 et leur positionnement sont à confirmer avant publication.
+4. **Écran 13 (panorama marché)** : liste d'éditeurs reprise de Gartner Peer Insights (20 premiers sur 71) avec un quadrant pédagogique notoriété × satisfaction. À valider : éditeurs à afficher (garder les 3 familles ? retirer les outils généralistes ?), prise en compte du très faible nombre d'avis, et statut du complément Forrester.
