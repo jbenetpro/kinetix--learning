@@ -124,13 +124,20 @@
 
 ### Écran 8 — Panorama du marché des OMS
 **Contenu clé :**
-- Sans citer de nom d'éditeur, présenter les grandes familles de solutions existantes sur le marché, en termes génériques :
-  - Module OMS intégré à une suite de gestion plus large (ERP ou plateforme e-commerce).
-  - Solution OMS spécialisée, dédiée à l'orchestration de commandes, interfacée avec les autres systèmes.
-  - Solutions développées en interne par certaines organisations pour des besoins très spécifiques.
-- Message clé pour le RPTL : peu importe la solution utilisée sur son site, le rôle et les enjeux de l'OMS restent les mêmes — c'est cette logique qu'il faut maîtriser, pas un outil en particulier.
+- Expliquer le principe d'un « quadrant d'analystes » (Gartner Magic Quadrant, Forrester Wave...) : une représentation qui positionne les éditeurs d'un marché selon deux axes — généralement la solidité de l'offre actuelle et la vision stratégique — pour donner une photographie du marché à un instant donné. Ce n'est pas un classement de qualité absolu et il évolue chaque année.
+- ⚠️ Point vérifié : Gartner ne publie pas de Magic Quadrant pour l'OMS à ce jour — ce marché (« Distributed Order Management ») y est couvert par un *Market Guide* (liste d'éditeurs reconnus, sans positionnement en quadrant) et par les avis clients Gartner Peer Insights.
+- Référence retenue pour la représentation en quadrant : **Forrester Wave™: Order Management Systems, Q1 2025** (8 éditeurs évalués). Éditeurs reconnus **Leaders** sur cette édition : **Manhattan Associates**, **Kibo**, **Fluent Commerce**.
+  - ⚠️ **À confirmer avant publication** : le détail complet (les 5 autres éditeurs évalués et leur positionnement Strong Performer/Contender) n'est accessible que dans le rapport Forrester payant — à vérifier/compléter avant mise en ligne du module.
+- Autres éditeurs reconnus sur ce marché par Gartner (liste de référencement Peer Insights, sans positionnement qualité) : OneStock, IBM Sterling Order Management, Adobe Commerce, SAP Order Management Services, Salesforce Order Management, Blue Yonder, Microsoft Dynamics 365 Commerce, parmi une liste plus large.
+- Message clé pour le RPTL : peu importe l'éditeur utilisé sur son site, le rôle et les enjeux de l'OMS restent les mêmes — c'est cette logique qu'il faut maîtriser, pas un outil en particulier. Ce panorama sert à donner un repère sur la diversité et la maturité du marché, pas à recommander un choix.
 
-**Visuel suggéré :** 3 pictos représentant les 3 grandes familles de solutions, sans logo ni nom.
+**Visuel suggéré :** Schéma quadrant 2x2 (axes « Offre actuelle » / « Vision stratégique »), les 3 Leaders Forrester positionnés dans le cadran supérieur droit, et un encart listant les autres éditeurs reconnus du marché sans positionnement.
+
+**Sources à citer à l'écran (note formateur) :**
+- Gartner Peer Insights — Distributed Order Management Systems : https://www.gartner.com/reviews/market/distributed-order-management-systems
+- Forrester Wave™: Order Management Systems, Q1 2025 (rapport Forrester, accès payant pour le détail complet)
+
+**Note formateur :** Ce panorama doit être mis à jour à chaque nouvelle édition du rapport (cadence annuelle environ) — prévoir une relecture de cet écran avant chaque republication du module.
 
 ---
 
@@ -184,3 +191,4 @@ Les termes de ce module ont été ajoutés au [glossaire global](00_Glossaire_gl
 2. Les **[Exemple réel à intégrer]** repérés (écrans 1, 4, 6, 9) — peux-tu fournir les cas concrets correspondants (anonymisés) ?
 3. Les 10 questions du quiz sont à finaliser (réponses/options complètes + feedbacks).
 4. Faut-il introduire ici la notion d'ATS (Available to Sell) en détail, ou rester au niveau "stock disponible à la vente" sans sigle technique supplémentaire ?
+5. **Écran 8 (panorama marché)** : le positionnement complet du Forrester Wave OMS Q1 2025 (5 éditeurs sur 8 non confirmés publiquement) est à vérifier avec le rapport complet avant publication — voir note dans l'écran.

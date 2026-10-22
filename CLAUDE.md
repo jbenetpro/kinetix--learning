@@ -9,8 +9,9 @@ Contenus d'une application de formation e-learning supply chain, destinée au pa
 
 Conventions de contenu :
 - Rédaction en français.
-- Exemples contextualisés métier transport/logistique, sans citer de logiciel, d'éditeur ni de nom de client.
+- Exemples contextualisés métier transport/logistique, sans citer de logiciel, d'éditeur ni de nom de client ou de projet.
 - Quand un module introduit un nouveau terme, l'ajouter aussi au glossaire global.
+- Exception — écran "panorama du marché" en fin de chaque module système (OMS, WMS, TMS, CMS, ERP, ESB, WCS, APS...) : cet écran peut et doit citer des noms réels d'éditeurs, avec une représentation inspirée des quadrants d'analystes (Gartner Magic Quadrant / Forrester Wave). Toujours sourcer précisément (rapport, édition, lien) ; si une information ne peut pas être vérifiée intégralement (rapport payant), la marquer « à confirmer avant publication ». Toujours interdit en revanche : citer un nom de client ou de projet.
 
 ## Travail multi-appareils
 

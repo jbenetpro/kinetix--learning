@@ -32,6 +32,7 @@
 | **Omnicanalité** | Capacité à permettre au client d'acheter et de se faire livrer ou retirer sa commande indifféremment via plusieurs canaux (site web, application, magasin), avec une expérience cohérente. |
 | **OMS (Order Management System)** | Système qui centralise et orchestre les commandes, de leur création jusqu'à leur affectation à une source de préparation ou d'expédition. |
 | **Orchestration (des commandes)** | Action de décider, pour chaque commande, quelle source va la préparer et comment elle sera livrée ou retirée, en coordonnant les différents canaux et sources d'exécution. |
+| **Quadrant d'analystes (Magic Quadrant / Wave)** | Représentation publiée par un cabinet d'analystes (Gartner, Forrester...) qui positionne les éditeurs d'un marché selon deux axes (ex. solidité de l'offre actuelle / vision stratégique), pour donner une photographie du marché à un instant donné. Évolue à chaque nouvelle édition. |
 
 ---
 
