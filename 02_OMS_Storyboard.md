@@ -187,8 +187,8 @@
 Les termes de ce module ont été ajoutés au [glossaire global](00_Glossaire_global.md) de la formation.
 
 ## Points ouverts / à valider avec toi
-1. Ce storyboard a été rédigé **sans le support existant** mentionné pour l'OMS — à comparer et enrichir avec ce support réel dès qu'il est disponible (contenu, exemples, niveau de détail attendu).
-2. Les **[Exemple réel à intégrer]** repérés (écrans 1, 4, 6, 9) — peux-tu fournir les cas concrets correspondants (anonymisés) ?
+1. **Support existant** : validé comme base du module. Les résumés des 7 présentations (cycle de vie, allocation, promesse, fulfilment, ATS/ATP, OMS vs ERP vs WMS, gestion des exceptions) restent à intégrer dans les écrans (ATP, promesse/fallback, fulfilment, exceptions, modèle à 3 couches).
+2. Les **[Exemple réel à intégrer]** (écrans 1, 4, 6, 9) — cas concrets anonymisés à fournir, sans nom de client ni de projet.
 3. Les 10 questions du quiz sont à finaliser (réponses/options complètes + feedbacks).
-4. Faut-il introduire ici la notion d'ATS (Available to Sell) en détail, ou rester au niveau "stock disponible à la vente" sans sigle technique supplémentaire ?
-5. **Écran 8 (panorama marché)** : le positionnement complet du Forrester Wave OMS Q1 2025 (5 éditeurs sur 8 non confirmés publiquement) est à vérifier avec le rapport complet avant publication — voir note dans l'écran.
+4. ~~ATS~~ : résolu — ATS = stock disponible à la vente (traduction anglaise), déjà défini au glossaire.
+5. **Écran 8 (panorama marché)** : les 8 éditeurs évalués dans le Forrester Wave OMS Q1 2025 et leur positionnement sont à confirmer avant publication — voir note dans l'écran.

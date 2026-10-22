@@ -27,7 +27,7 @@
 | Terme | Définition |
 |---|---|
 | **Allocation (règle d'allocation)** | Règle appliquée par l'OMS pour choisir la source (entrepôt, magasin, fournisseur) qui va honorer une commande, selon des critères comme la proximité, le niveau de stock, le coût ou le délai. |
-| **ATS (Available to Sell / stock disponible à la vente)** | Quantité de stock qu'un système considère comme réellement disponible pour être vendue, après déduction des réservations, blocages ou commandes en cours. |
+| **ATS (Available to Sell / stock disponible à la vente)** | Quantité de stock réellement disponible à la vente (« disponibilité de stock »), obtenue en partant du stock physique compté, moins les réservations en cours, moins les protections de stock (blocages, pièces de présentoir, stock tampon). C'est la traduction anglaise de « stock disponible à la vente ». |
 | **ERP (Enterprise Resource Planning)** | Système de gestion qui centralise les référentiels de l'entreprise (articles, clients, comptabilité, stock théorique global). |
 | **Omnicanalité** | Capacité à permettre au client d'acheter et de se faire livrer ou retirer sa commande indifféremment via plusieurs canaux (site web, application, magasin), avec une expérience cohérente. |
 | **OMS (Order Management System)** | Système qui centralise et orchestre les commandes, de leur création jusqu'à leur affectation à une source de préparation ou d'expédition. |
