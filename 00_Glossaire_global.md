@@ -119,6 +119,22 @@
 | **Stock comptable (valorisé)** | Stock exprimé en valeur (quantité multipliée par un coût) dans l'ERP, qui alimente le bilan ; distinct du stock physique compté et du stock disponible à la vente. |
 | **Système hôte** | Système de gestion (souvent l'ERP, parfois l'OMS) qui envoie au WMS les articles, ASN et ordres de distribution, et en reçoit les mouvements de stock et confirmations d'expédition. |
 
+## Module : WCS
+
+| Terme | Définition |
+|---|---|
+| **Automate (PLC)** | Petit calculateur industriel qui commande une machine ou un équipement (moteurs, capteurs) et dialogue avec le WCS. |
+| **Convoyeur** | Équipement qui transporte automatiquement bacs, cartons ou colis entre les zones d'un entrepôt, avec des aiguillages et des points de lecture. |
+| **Équipements de manutention (MHE)** | Ensemble des équipements physiques de manutention et de stockage d'un entrepôt (convoyeurs, trieurs, robots, stockage automatisé). Les messages échangés avec eux sont appelés messages MHE. |
+| **Gare de picking** | Zone ou poste où les bacs arrivent automatiquement pour que l'opérateur y prélève les articles. |
+| **Mise en bac** | Opération qui consiste à placer les articles dans des bacs destinés au stockage automatisé. |
+| **Mode dégradé** | Procédure de secours, définie à l'avance, qui permet de continuer à travailler lorsqu'un équipement ou un système est indisponible. |
+| **No-read (non-lecture)** | Situation où un lecteur n'arrive pas à lire l'étiquette d'un colis ou d'un bac ; le colis est généralement dirigé vers une voie de rejet. |
+| **Rejet** | Voie ou action qui écarte du flux automatique un colis non conforme (poids anormal, étiquette illisible, hors gabarit) pour traitement manuel. |
+| **Stockage automatisé** | Système qui range et retrouve automatiquement des bacs, cartons ou palettes (transstockeurs, tours automatisées, robots sur racks). |
+| **Trieur** | Équipement qui oriente automatiquement chaque colis vers sa destination (commande, quai, transporteur). |
+| **WES (Warehouse Execution System)** | Système qui combine, à des degrés variables, des fonctions de WMS et de WCS pour coordonner l'exécution des opérations d'un entrepôt, notamment mécanisé. |
+
 ---
 
-*(Les modules suivants ajouteront leurs propres sections ici : WCS, ESB, IA, etc.)*
+*(Les modules suivants ajouteront leurs propres sections ici : ESB, IA, etc.)*
