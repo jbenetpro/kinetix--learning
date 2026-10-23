@@ -71,6 +71,19 @@
 | **WCS (Warehouse Control System)** | Système qui pilote les équipements automatisés d'un entrepôt (convoyeurs, robots, trieurs...), orchestre les flux physiques et se synchronise avec le WMS. |
 | **WMS (Warehouse Management System)** | Système qui gère les stocks, l'ordonnancement et la préparation des commandes au sein de l'entrepôt, en temps réel. |
 
+## Module : TMS
+
+| Terme | Définition |
+|---|---|
+| **Chargeur** | Entreprise qui expédie la marchandise et fait appel à un transporteur (par opposition au transporteur, qui l'achemine). |
+| **ETA (Expected Time of Arrival)** | Heure ou date d'arrivée estimée d'une expédition à destination. |
+| **Go chargement** | Information envoyée par le TMS au WMS (et au transporteur) autorisant le chargement des commandes dans le camion. |
+| **Groupage** | Regroupement des commandes qui partent avec un même transporteur le même jour (et souvent vers la même destination). |
+| **Récépissé de livraison (preuve de livraison)** | Document ou confirmation attestant que la marchandise a bien été reçue par le destinataire. |
+| **Schéma de transport** | Attribution à une commande d'un prestataire d'acheminement et d'un plan de transport, selon l'adresse de livraison, la nature des produits, l'entrepôt expéditeur et le délai. |
+| **TMS chargeur / TMS transporteur** | Le TMS chargeur est dédié aux expéditeurs et communique avec leurs systèmes (ERP, OMS, WMS) ; le TMS transporteur est dédié aux transporteurs et communique avec le TMS chargeur. |
+| **TMS (Transport Management System)** | Système qui optimise la gestion du transport des commandes : choix du mode et du transporteur, planification, documents, suivi jusqu'à la livraison. |
+
 ---
 
-*(Les modules suivants ajouteront leurs propres sections ici : TMS, APS/ERP/WCS, IA, etc.)*
+*(Les modules suivants ajouteront leurs propres sections ici : APS/ERP/WCS, IA, etc.)*
