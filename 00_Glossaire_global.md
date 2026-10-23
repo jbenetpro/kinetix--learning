@@ -54,6 +54,7 @@
 | **Chargement et bordereau d'expédition** | Le chargement est la mise des palettes ou colis consolidés dans le camion ; le bordereau d'expédition (*bill of lading*) reprend l'expéditeur, la date, le numéro de chargement, le contenu, le numéro de plomb et les signatures. |
 | **Consolidation** | Regroupement, dans une zone dédiée, des colis ou commandes préparés (par exemple sur une même palette ou pour un même chargement) avant l'expédition. |
 | **Cubing** | Calcul du volume et de l'emballage permettant d'utiliser au mieux la capacité d'un colis ou d'une palette (par exemple préparer une palette jusqu'à son volume maximal). S'appuie sur les dimensions des articles. |
+| **ESB (Enterprise Service Bus / bus d'intégration)** | Couche logicielle qui relaie les messages entre systèmes : elle les reçoit, les transforme au format attendu par le destinataire, les achemine vers le bon système et en garde la trace, évitant de relier chaque système directement à tous les autres. |
 | **Flux nominal / flux spécifique** | Le flux nominal (standard) est le fonctionnement proposé par l'éditeur ; le flux spécifique est une adaptation aux besoins d'une entreprise (volumes, niveau de contrôle, type de produit). |
 | **GTP (Goods-to-Person)** | Mode de prélèvement où le produit est amené à l'opérateur par un équipement automatisé, au lieu que l'opérateur se déplace vers le produit. |
 | **iLPN / oLPN (License Plate Number)** | Identifiant unique d'un colis ou d'une palette dans le WMS : « i » pour entrant (*inbound*, reçu), « o » pour sortant (*outbound*, préparé pour la commande). |
@@ -169,4 +170,4 @@
 
 ---
 
-*(Les modules suivants ajouteront leurs propres sections ici : ESB, etc.)*
+*(Chaque nouveau module ajoute ici sa propre section.)*

@@ -5,7 +5,7 @@
 **Public :** Apprenants RPTL ou métiers proches (responsable entrepôt, affréteur, approvisionneur, coordinateur transport/logistique) — non-IT
 **Statut :** 🔴 À créer — v1 storyboard (base : section WCS du cours ICAM 2026 — pourquoi mécaniser, fonctionnalités, exemple de mécanisation, vie d'un colis, choix de solution — complétée pour les échanges avec le WMS, les incidents, les projets, les limites et le marché)
 
-**Positionnement dans le curriculum :** Sixième module « système ». Ce module prolonge l'**ouverture faite à la fin du module WMS** (écran 13) : le WMS décide *quoi, où et quand* ; le WCS commande *comment* le mouvement physique est réalisé par les équipements automatisés. Il est complémentaire de l'APS (planifier), de l'ERP (gérer) et prépare le module sur l'intégration des systèmes. Les exemples sont contextualisés métier transport/logistique, sans nom de client ni de projet ; seul l'écran « panorama du marché » cite des fournisseurs (règle du projet, voir CLAUDE.md).
+**Positionnement dans le curriculum :** Sixième module « système ». Ce module prolonge l'**ouverture faite à la fin du module WMS** (écran 13) : le WMS décide *quoi, où et quand* ; le WCS commande *comment* le mouvement physique est réalisé par les équipements automatisés. Il est complémentaire de l'APS (planifier), de l'ERP (gérer) Les exemples sont contextualisés métier transport/logistique, sans nom de client ni de projet ; seul l'écran « panorama du marché » cite des fournisseurs (règle du projet, voir CLAUDE.md).
 
 ---
 
@@ -105,7 +105,7 @@
 - **Avec d'autres systèmes** : impression d'**étiquettes** et de documents, systèmes de gestion de commandes, supervision.
 - **Rappel des 3 couches** : WMS et WCS sont tous deux en **exécution**, mais pas au même niveau : le WMS gère l'**information logistique**, le WCS gère le **mouvement physique** avec des temps de réaction très courts (la machine ne peut pas attendre).
 - Conséquence : le WCS doit rester **réactif et disponible** même si le WMS est lent ou indisponible un court instant ; c'est un point de conception important.
-- Les échanges passent par des **interfaces** et souvent une couche d'**intégration** (module suivant).
+- Les échanges passent par des **interfaces** et souvent une couche d'**intégration** (bus d'intégration ou ESB), qui transporte, transforme et trace les messages entre systèmes.
 
 **Visuel suggéré :** Schéma WMS ↔ WCS ↔ automates/équipements, avec des flèches nommées (ordres, confirmations, états des machines) et l'échelle de temps de chaque niveau.
 
@@ -226,7 +226,7 @@
 - Pistes d'évolution : **maintenance prédictive** (détecter une usure avant la panne), **simulation** de flux avant un changement (jumeau numérique), **optimisation dynamique** des priorités, **vision par ordinateur** (lecture et contrôle), robots plus autonomes.
 - Les principes restent les mêmes avec l'IA : **données fiables**, paramétrage maîtrisé, **validation humaine** et procédures de secours ; une prédiction ou une simulation est une **hypothèse à vérifier**.
 - Lien avec le curriculum : le module « Overview IA » reprendra ces notions ; le réflexe « vérifier avant d'agir » reste central.
-- Transition : « Pour que WMS, WCS, TMS, ERP et les autres systèmes dialoguent, il faut une couche d'intégration — c'est le sujet du module suivant. »
+- Rappel : WMS, WCS, TMS, ERP et les autres systèmes dialoguent grâce à une couche d'intégration (ESB) ; un incident peut venir du système émetteur, du système récepteur ou du transport du message.
 
 **Visuel suggéré :** Flux de données des équipements vers un tableau de bord, avec trois pistes (prédictif, simulation, optimisation) en étiquettes.
 
@@ -280,7 +280,7 @@
 - Un projet de mécanisation mêle IT et physique : le RPTL, détenteur de la connaissance d'usage, fournit les règles métier et les teste après l'installation ; incidents et modes dégradés se préparent à l'avance.
 - « Vérifier avant d'agir » : mécanique, lecture, donnée article, ordre WMS, état du WCS.
 
-**Call-to-action :** Transition vers le module suivant. "Pour que tous ces systèmes se parlent, voyons l'intégration."
+**Call-to-action :** Transition vers le module suivant. "Après les systèmes de la supply chain, place à l'IA : comment elle s'y insère et comment l'utiliser sans perdre le contrôle."
 
 **Visuel suggéré :** Carte mentale récapitulative, bouton "Module suivant", lien de téléchargement du glossaire global.
 
@@ -295,6 +295,5 @@ Les termes de ce module ont été ajoutés au [glossaire global](00_Glossaire_gl
 3. **Fournisseurs du support** (écran 13) : les deux solutions comparées dans le cours (robots mobiles sur racks, tour automatisée) sont citées dans la bande « stockage automatisé ». Le cours mentionne aussi d'autres exemples de solutions ; à compléter si besoin.
 4. **Parties complétées hors support** : écrans 5 (échanges), 10 (projet), 11 (incidents et limites), 12 (ouverture) à faire relire par un expert entrepôt / mécanisation.
 5. **Exemples réels** (écrans 1, 7, 11) à fournir, anonymisés, sans nom de client ni de projet.
-6. **Module suivant** : l'ouverture annonce un module d'intégration (ESB) à confirmer dans le plan.
 7. Les 10 questions du quiz sont à finaliser (réponses/options complètes + feedbacks).
 8. **Règles aux points de décision (écran 7)** : règles génériques (identification, priorités, tolérances de pesée, recirculation, repli) à faire valider par un expert mécanisation ; tolérances et nombre de recirculations à fixer par site.

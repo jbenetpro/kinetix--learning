@@ -87,7 +87,7 @@
 - Le WMS échange avec un **système hôte** (l'ERP ou l'OMS) et avec d'autres systèmes. Messages principaux :
   - **Entrants** (vers le WMS) : les articles (référentiel), les **ASN** (avis d'expédition fournisseur : ce qui est attendu), les **ordres de distribution** (demandes de préparation de commandes).
   - **Sortants** (du WMS) : les **PIX** (transactions d'inventaire : toute modification de stock — réception, modification, expédition), les **confirmations d'expédition**, l'**image de stock** périodique (pour l'ERP, l'OMS, le reporting).
-- Un **bus d'intégration (ESB)** relaie souvent ces messages entre systèmes (module dédié ultérieur) ; un pré-intégrateur est parfois ajouté.
+- Un **bus d'intégration (ESB, *Enterprise Service Bus*)** relaie souvent ces messages : il les reçoit d'un système, les transforme au format attendu par le suivant, les distribue au bon destinataire et en garde la trace ; un pré-intégrateur est parfois ajouté.
 - Avec le **TMS** : la commande lui est transmise en même temps qu'au WMS ; le WMS l'informe du début de préparation, de la pesée/colisage ou d'une annulation ; le TMS renvoie le « go chargement » ; le WMS confirme l'expédition.
 - Avec le **WCS** : le WMS lui transmet les ordres de mouvement des équipements mécanisés (voir écran 13).
 - Rappel des 3 couches (module OMS) : ERP stratégique ; OMS opérationnel ; **WMS et WCS en exécution, en temps réel**.

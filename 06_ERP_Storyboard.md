@@ -203,9 +203,10 @@
 ### Écran 12 — Ouverture : faire parler les systèmes entre eux (l'intégration)
 **Contenu clé :**
 - Tout au long du parcours, on a vu des systèmes qui **s'échangent des messages** : articles, ASN, ordres de distribution, PIX, confirmations d'expédition, factures, statuts de livraison...
-- Ces échanges ne se font pas tout seuls : ils passent par des **interfaces** et, souvent, par une couche d'**intégration** (bus d'intégration / ESB, courtier d'événements, plateforme d'intégration) qui transporte, transforme et surveille les messages.
+- Ces échanges ne se font pas tout seuls : ils passent par des **interfaces** et, souvent, par une couche d'**intégration** (bus d'intégration ou **ESB**, courtier d'événements, plateforme d'intégration).
+- **Ce que fait un ESB** : il **transporte** les messages d'un système à l'autre, les **transforme** au format attendu par le destinataire, les **achemine** vers le bon système et **garde la trace** de ce qui a circulé. Il évite que chaque système soit relié directement à tous les autres.
 - Une **chaîne de messages** : un incident peut venir du système émetteur, du système récepteur **ou du transport du message entre les deux**. Savoir où chercher fait gagner du temps.
-- Lien avec le curriculum : le module suivant sur l'intégration (ESB) approfondit ces notions ; le réflexe « vérifier avant d'agir » s'y applique pleinement (le message est-il parti ? arrivé ? traité ?).
+- Le réflexe « vérifier avant d'agir » s'y applique pleinement : le message est-il parti ? arrivé ? traité ?
 
 **Visuel suggéré :** Les systèmes du parcours (ERP, OMS, APS, WMS, WCS, TMS) reliés par une couche d'intégration au centre, avec des messages nommés qui circulent.
 
@@ -271,6 +272,6 @@ Les termes de ce module ont été ajoutés au [glossaire global](00_Glossaire_gl
 1. **Pas de support dédié** : tout le contenu métier est à faire relire par un expert ERP / finance. Tu peux m'envoyer des extraits (cours, notes, résumés) pour vérifier et enrichir.
 2. **Périmètre** : j'ai orienté l'ERP vers la logistique (achats, ventes, stock, système hôte). Faut-il détailler la finance, la production ou les RH, ou rester centré sur la logistique ?
 3. **Exemples réels** (écrans 1, 5, 6, 9, 11) à fournir, anonymisés, sans nom de client ni de projet.
-4. **Écran 12** : l'ouverture annonce un module d'intégration (ESB) qui n'existe pas encore dans le plan ; à confirmer ou à ajuster.
+4. **Écran 12** : écran d'information sur l'intégration et le rôle d'un ESB ; il n'annonce aucun module supplémentaire.
 5. **Écran 13 (panorama)** : Magic Quadrant Gartner « Cloud ERP for Product-Centric Enterprises » 2025 ; Leaders issus de communiqués et d'une synthèse ; autres placements à confirmer ; pertinence du segment « Service-Centric » ?
 6. Les 10 questions du quiz sont à finaliser (réponses/options complètes + feedbacks).
