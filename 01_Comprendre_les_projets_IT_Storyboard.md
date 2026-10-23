@@ -74,7 +74,7 @@
 - **MOA (Maîtrise d'Ouvrage)** : porte le besoin métier, définit le "quoi" et le "pourquoi". Exemple : le responsable logistique qui veut réduire les erreurs de préparation de commande.
 - **MOE (Maîtrise d'Œuvre)** : conçoit et réalise la solution technique, définit le "comment". Exemple : l'équipe technique ou le prestataire intégrateur.
 - **Sponsor** : porte le projet au niveau direction, débloque budget/arbitrages.
-- **Key users / référents métier** : relais terrain (souvent le rôle que jouera un RPTL), testent et valident que la solution correspond au besoin réel.
+- **Key users / référents métier** : relais terrain (souvent le rôle que jouera un RPTL), **détenteurs de la connaissance par l'usage** : ils **fournissent les règles métier** lors de la conception, puis **testent et valident après l'installation** que la solution correspond au besoin réel.
 
 **Visuel suggéré :** Schéma en losange avec les 4 rôles et les flèches de communication entre eux.
 
@@ -93,10 +93,10 @@
 
 ### Écran 6 — Zoom sur chaque phase et le rôle du métier
 **Contenu clé (1 carte par phase, accordéon/tabs) :**
-- **Recueil des besoins** : identifier et formaliser le besoin métier (ateliers, interviews, cahier des charges). Rôle du RPTL : exprimer clairement les contraintes terrain (volumes, contraintes horaires, flux physiques réels).
-- **Conception** : traduire le besoin en solution (processus cible, paramétrage envisagé). Rôle du RPTL : valider que la solution envisagée est réaliste au quotidien.
+- **Recueil des besoins** : identifier et formaliser le besoin métier (ateliers, interviews, cahier des charges). Rôle du RPTL : **détenteur de la connaissance d'usage**, il exprime clairement les contraintes terrain (volumes, contraintes horaires, flux physiques réels) et les règles qui fonctionnent aujourd'hui.
+- **Conception** : traduire le besoin en solution (processus cible, paramétrage envisagé). Rôle du RPTL : **fournir les règles métier** (règles de gestion, priorités, cas particuliers) et valider que la solution envisagée est réaliste au quotidien.
 - **Réalisation** : le prestataire/l'équipe IT construit ou paramètre la solution.
-- **Tests / Recette** : vérifier que la solution répond au besoin (tests d'intégration, recette métier/UAT). Rôle du RPTL : tester des scénarios réels (pics d'activité, cas limites).
+- **Tests / Recette** : vérifier que la solution répond au besoin (tests d'intégration, recette métier/UAT). Rôle du RPTL : **tester après l'installation** les règles qu'il a fournies, sur des scénarios réels (pics d'activité, cas limites), puis suivre l'hypercare et ajuster les règles.
 - **Déploiement** : mise en production, formation des utilisateurs, bascule, support renforcé post-démarrage (hypercare).
 
 **Visuel suggéré :** 5 cartes cliquables avec icône, définition courte, rôle du métier associé.

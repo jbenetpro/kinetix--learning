@@ -185,7 +185,7 @@
   - **Tour automatisée de rangement** : structure verticale qui range et délivre des plateaux ou bacs. *Atouts* : adaptée aux **petits articles**, forte optimisation du stockage sur de **petits espaces**, mise en œuvre facilitée, optimisation du rangement et du picking.
 - **Critères de choix** : type d'articles (taille, poids, fragilité), espace disponible, volumes et pics, évolutivité, coût, intégration au WMS existant, disponibilité de la maintenance.
 - Principe : **adapter la solution au besoin**, pas l'inverse ; il n'existe pas de solution universelle.
-- Rôle du RPTL : exprimer les contraintes d'exploitation (pics, horaires, saisonnalité) et valider que la solution est réaliste au quotidien.
+- Rôle du RPTL : **exprimer les contraintes d'exploitation** (pics, horaires, saisonnalité) issues de son usage et valider que la solution est réaliste au quotidien ; il **teste ensuite la solution installée** en conditions réelles.
 
 **Visuel suggéré :** Tableau comparatif à deux colonnes (robotisation du rangement / tour automatisée) avec les atouts, les cas d'usage et les critères de choix.
 

@@ -132,6 +132,7 @@
 - Sur cette base, le TMS cherche le meilleur compromis **coût / délai / empreinte carbone** entre les modes : maritime (forte quantité), ferroviaire (longue distance), routier (faible et moyenne distance), aérien (urgence). Les ordres de grandeur d'émissions diffèrent fortement d'un mode à l'autre (l'aérien émet nettement plus que le maritime).
 - **Prise en charge par le transporteur** : en réseau, les colis de plusieurs expéditeurs sont acheminés vers les plateformes du transporteur, qui gère ensuite les trajets de distribution jusqu'aux destinataires. Le chargeur ne pilote que le trajet « expéditeur → plateforme » avec des colis 100 % à lui.
 - Lien OMS : l'OMS **calcule la promesse** (date de livraison, routes possibles) ; le TMS **choisit concrètement** le transporteur et le plan qui tiennent cette promesse.
+- Rôle du RPTL : **détenteur de la connaissance d'usage**, il **fournit les règles du schéma de transport** (transporteur par destination, contraintes de livraison, seuils de poids, priorités) ; il les **teste après l'installation** (cas normaux, cas limites, pointes) et les **optimise** en exploitation normale à partir des retards et des coûts observés.
 
 **Visuel suggéré :** Tableau 4 modes × 3 critères (coût, temps, CO2) + carte simplifiée « expéditeurs → plateformes du transporteur → destinataires ».
 
@@ -176,6 +177,7 @@
 - Ce que le TMS apporte : alertes sur les retards, suivi par colis, preuve de livraison, historique des événements, données pour discuter avec le transporteur.
 - Ce que le TMS ne fait pas seul : décider de réexpédier, d'indemniser ou de changer de transporteur — c'est une décision de gestion, souvent du RPTL.
 - Un incident répété (même transporteur, même destination) est un signal de **management** : il se traite par un échange avec le transporteur et une règle, pas seulement colis par colis.
+- Les **règles de traitement des incidents** (qui prévient qui, quand relancer, quand changer de transporteur) viennent de la connaissance d'usage du RPTL ; elles sont testées après l'installation et ajustées à l'usage.
 
 **Visuel suggéré :** Arbre de décision « incident constaté → où ? → solution sans impact sur la promesse ? → sinon, prévenir le client », avec le rôle du TMS à chaque étape.
 

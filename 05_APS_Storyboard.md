@@ -99,7 +99,7 @@
   - **Opérationnel** (jours, semaines) : réapprovisionnement quotidien, répartition fine des stocks.
 - Le **S&OP** (*Sales & Operations Planning*) est le rendez-vous régulier, souvent mensuel, où les équipes commerciales, finances, achats et opérations (dont la logistique) s'accordent sur **un plan unique** : ce qu'on prévoit de vendre et ce qu'on s'engage à approvisionner et livrer.
 - Plus l'horizon est court, plus la décision est détaillée et la donnée fraîche ; plus il est long, plus c'est agrégé et incertain.
-- Rôle du RPTL : apporter au S&OP les **contraintes logistiques** (capacités de quais, de préparation, de transport, saisonnalité de la main-d'œuvre).
+- Rôle du RPTL : **détenteur de la connaissance d'usage**, il apporte au S&OP les **contraintes logistiques** (capacités de quais, de préparation, de transport, saisonnalité de la main-d'œuvre), qui sont des règles à intégrer au plan.
 
 **Visuel suggéré :** Pyramide ou tunnel de 3 horizons (long / moyen / court) avec, au centre, le cycle mensuel du S&OP.
 
@@ -131,7 +131,7 @@
 - Arbitrage **coût / délai** : par exemple, un fournisseur lointain peut être moins cher mais livrer en une quarantaine de jours, tandis qu'un fournisseur de proximité livre en deux jours à un coût supérieur ; l'APS compare selon la demande prévue et le risque de rupture. *(Exemple chiffré illustratif.)*
 - Ces données fournisseurs relèvent de la **relation fournisseurs** (SRM, rattachée à l'ERP) : contrats, conditions, coûts.
 - Résultat : des **propositions de commandes fournisseurs** validées par les acheteurs/planificateurs, puis exécutées dans l'ERP.
-- Rôle du RPTL : un plan d'approvisionnement crée des **arrivées** à réceptionner (quais, rendez-vous) : l'anticipation aide à lisser la charge.
+- Rôle du RPTL : un plan d'approvisionnement crée des **arrivées** à réceptionner (quais, rendez-vous) : fort de sa connaissance d'usage, il **indique les capacités et créneaux réalistes** pour lisser la charge et **vérifie après mise en place** que le plan est tenable.
 
 **Visuel suggéré :** Schéma « besoin net = prévision + stock de sécurité − stock disponible − réceptions attendues » et comparaison de deux fournisseurs (coût / délai).
 
@@ -144,7 +144,7 @@
 - **Rééquilibrage de stock** : déplacer du stock d'un site en surstock vers un site en risque de rupture ; ces déplacements génèrent des **ordres de transfert** exécutés par le WMS puis le TMS.
 - Lien OMS : le stock réparti et protégé par site est ce que l'OMS verra comme stock disponible (ATS) ; une bonne répartition **réduit** les expéditions longues et les ruptures locales.
 - Lien exécution : un transfert est une « commande interne » qui passe par le WMS (préparation) et le TMS (transport), avec les mêmes contraintes que toute expédition.
-- Rôle du RPTL : estimer l'**impact opérationnel** d'un plan de répartition (volumes de préparation, tournées de transport) et remonter les contraintes avant exécution.
+- Rôle du RPTL : estimer l'**impact opérationnel** d'un plan de répartition (volumes de préparation, tournées de transport) et remonter les contraintes avant exécution ; après mise en œuvre, **confronter le plan à la réalité** et signaler les écarts.
 
 **Visuel suggéré :** Carte de réseau (entrepôt central, entrepôts régionaux, magasins) avec flèches de réapprovisionnement et de rééquilibrage, couleurs de surstock / rupture.
 
@@ -174,7 +174,7 @@
   - **Taux de rupture** et **surstock**.
   - **Rotation des stocks** et **couverture de stock** (nombre de jours de vente que le stock permet de couvrir).
   - **Erreur de prévision** (écart entre prévu et réel).
-- Rôle du RPTL dans la boucle de planification : fournir les **capacités réelles** (quais, préparation, transport, horaires), alerter sur les **pics** à venir, signaler les **écarts** constatés (retards fournisseurs, produits non conformes) qui doivent être pris en compte.
+- Rôle du RPTL dans la boucle de planification : **détenteur de la connaissance d'usage**, il fournit les **capacités réelles** (quais, préparation, transport, horaires), alerte sur les **pics** à venir et signale les **écarts** constatés (retards fournisseurs, produits non conformes) qui doivent être pris en compte. Dans un **projet APS**, il **fournit les règles et paramètres métier** (délais, capacités, contraintes) et **teste les recommandations après l'installation** avec des cas réels.
 - Un lien avec les modules précédents : une rupture visible dans l'OMS ou un retard de transport peuvent avoir leur origine dans un plan d'approvisionnement ou de répartition.
 
 **Visuel suggéré :** Tableau de bord 4 indicateurs (taux de service, rupture, couverture, erreur de prévision) et une flèche « capacités et alertes du terrain → APS ».
