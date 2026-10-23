@@ -274,4 +274,4 @@ Les termes de ce module ont été ajoutés au [glossaire global](00_Glossaire_gl
 4. **Écran 13 (atelier)** : exercices à produire sur plusieurs cas RPTL ; faut-il prévoir un assistant en bac à sable dans l'application ?
 5. **Exemples réels** (écrans 1, 5, 9, 12) à fournir, anonymisés, sans nom de client, de projet ni de prestataire.
 6. Les 10 questions du quiz sont à finaliser (réponses/options complètes + feedbacks).
-7. **Alignement du parcours** : le module se termine par un appel à l'action final ; à adapter si de nouveaux modules sont ajoutés (intégration/ESB notamment).
+7. **Alignement du parcours** : le module se termine par un appel à l'action final ; à adapter si de nouveaux modules sont ajoutés.

@@ -100,7 +100,7 @@
   6. Le transporteur renvoie les **informations de livraison**.
 - Les statuts du WMS (écran 4 du module WMS) alimentent donc le TMS : un TMS n'est fiable que si le WMS lui remonte des informations justes et à temps.
 - Rappel des 3 couches du SI : le TMS se situe côté **exécution du transport**, avec une cadence quasi temps réel.
-- Un bus d'intégration (ESB) relaie souvent ces messages (module dédié ultérieur).
+- Un bus d'intégration (ESB) relaie souvent ces messages : il les transporte, les transforme et les distribue entre les systèmes.
 
 **Visuel suggéré :** Schéma à 4 blocs (ERP/OMS, WMS, TMS chargeur, TMS transporteur) avec les 6 flèches numérotées.
 
