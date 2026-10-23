@@ -153,7 +153,7 @@
   - **Consolidation** : où iront les palettes à la fin de la préparation ? (ex. toutes les commandes d'un même chargement au même endroit)
   - **Création des tâches** : comment seront préparées les commandes ? (ex. un prélèvement pour 3 colis à la fois, avec une priorité élevée)
   - **Impression** : quelles étiquettes imprimer ? (ex. les étiquettes de mission de prélèvement)
-- Message clé : c'est ici que se joue l'arbitrage **délai / coût / charge de travail**. Les règles sont paramétrables avec les équipes métier, donc avec le RPTL.
+- Message clé : c'est ici que se joue l'arbitrage **délai / coût / charge de travail**. Les règles sont paramétrables avec les équipes métier : le RPTL, détenteur de la connaissance d'usage, **fournit ces règles** (sélection, capacité, priorités) et les **teste après l'installation**, notamment aux pointes.
 
 **Visuel suggéré :** Entonnoir à 8 niveaux (sélection → capacité → allocation → cubing → routing → consolidation → tâches → impression), avec en regard « question » et « exemple ».
 
@@ -197,7 +197,7 @@
 - **Flux nominal (standard) vs flux spécifique** : un éditeur propose un fonctionnement standard, mais chaque entreprise n'a pas les mêmes besoins. Exemple de contraste : gros volumes avec peu de contrôles, ou faibles volumes de marchandises de forte valeur très contrôlées. Le WMS est donc **paramétré**, parfois enrichi de développements spécifiques.
 - **Tout ce qui est visible à l'écran est une donnée** : chaque information de l'interface (dimensions, poids, famille, emballage...) est stockée en base de données. La qualité de ces **données de référence** conditionne le cubing, la pesée, l'allocation.
 - **Suivi d'activité** : tableaux de bord paramétrables en temps réel, par rôle (opérations, suivi des systèmes IT) : productivité par opérateur et par créneau horaire, palettes urgentes non rangées, etc.
-- Rôle du RPTL : exprimer les besoins métier qui justifient (ou non) un flux spécifique ; s'appuyer sur le suivi d'activité pour piloter.
+- Rôle du RPTL : **exprimer les besoins métier** qui justifient (ou non) un flux spécifique et **fournir les règles** issues de son usage (règles de vague, règles inbound, tolérances) ; les **tester après l'installation** (cas normaux, cas limites, pointes) et les **optimiser** en exploitation normale grâce au suivi d'activité.
 - Lien module 1 : un flux spécifique relève d'un projet (cadrage, design, tests, recette) — c'est aussi le terrain des projets d'amélioration continue (courts, agiles).
 
 **Visuel suggéré :** Deux colonnes « flux standard / flux spécifique » avec un exemple de chaque, et une capture schématique de tableau de bord.
@@ -231,7 +231,7 @@
 - **Le WCS (Warehouse Control System)** : il **pilote les éléments automatisés** de l'entrepôt, **orchestre les flux physiques**, **se synchronise avec le WMS** et peut intervenir dans tous les process (réception, stockage, prélèvement, préparation, expédition).
 - **Partage des rôles** : le WMS décide **quoi** déplacer, **où** et **quand** (il connaît le stock et les commandes) ; le WCS décide **comment** le mouvement physique est réalisé (quel convoyeur, quel robot, quelle porte de tri). Le WMS lui envoie des ordres et reçoit en retour l'avancement.
 - Rappel des 3 couches : WMS et WCS sont tous deux en **exécution, en temps réel** — mais pas au même niveau (information / machine).
-- Rôle du RPTL : comprendre qu'un incident peut venir du WMS (mauvais ordre) ou du WCS (équipement) ; et qu'un projet de mécanisation est un projet IT **et** physique (tests physiques, voir module 1).
+- Rôle du RPTL : comprendre qu'un incident peut venir du WMS (mauvais ordre) ou du WCS (équipement) ; et qu'un projet de mécanisation est un projet IT **et** physique : il y **fournit les règles métier** et les **teste** lors des tests physiques et de l'hypercare (voir module 1 et module WCS).
 - Transition : « Le prochain module système approfondit le WCS (avec l'APS et l'ERP) ».
 
 **Visuel suggéré :** Schéma à deux niveaux : WMS (cerveau logistique) → WCS (chef d'orchestre des machines) → équipements (convoyeurs, robots, GTP), avec une flèche retour « avancement ».

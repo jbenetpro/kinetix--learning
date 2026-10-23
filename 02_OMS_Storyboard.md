@@ -141,7 +141,7 @@
   - Produits de luxe : priorité à l'expérience et à la rapidité, le coût logistique est absorbé dans le prix ; chaque client insatisfait pèse beaucoup.
   - Grande distribution : priorité au coût logistique, le délai peut être plus long ; le coût d'insatisfaction reste inférieur au surcoût de livraison.
 - Exemple pédagogique (anonymisé) : sur un marché étranger où l'expédition depuis le pays d'origine imposerait un transit long et un délai douanier incertain, l'OMS est paramétré pour privilégier l'expédition **depuis les magasins locaux** (produit déjà mis à la consommation du marché, livraison domestique plus rapide et moins chère).
-- Rôle du RPTL : remonter les contraintes réelles de production (capacité de préparation, horaires de coupure, contraintes de transport) qui nourrissent ces règles.
+- Rôle du RPTL : **détenteur de la connaissance d'usage**, il remonte les contraintes réelles de production (capacité de préparation, horaires de coupure, contraintes de transport) et **fournit les règles d'allocation qui fonctionnent** (priorités, plafonds de préparation) ; il les **teste après le paramétrage** et les **optimise** à l'usage.
 
 **Visuel suggéré :** Schéma « commande → liste des sources candidates → score (délai / coût / stock / route) → source retenue », avec deux profils de pondération (luxe vs grande distribution).
 
@@ -156,7 +156,7 @@
 - Les causes de repli : erreur de préparation, anomalie de stock constatée, lieu fermé ou saturé.
 - Principe clé : **les critères de fallback se définissent en amont dans l'OMS, pas au moment de l'incident.** Analogie : le deuxième verre posé sous le premier.
 - Le fallback peut inclure un **délai de sécurité** dans la promesse (par exemple, délai supplémentaire si le repli est plus loin).
-- Rôle du RPTL : savoir quelles sources sont en repli de son site, et ce que cela change pour sa charge.
+- Rôle du RPTL : savoir quelles sources sont en repli de son site et ce que cela change pour sa charge ; **fournir les règles de repli** réalistes (délais de sécurité, capacités) lors du projet, les **tester après l'installation** et les **ajuster** à l'usage.
 - Pont vers l'écran suivant : le fallback traite ce qui est **prévu** ; ce qui ne l'est pas relève de la gestion des exceptions.
 
 **Visuel suggéré :** Arbre de repli à 3 niveaux (source n°1 → source n°2 → source n°3) avec les conditions de bascule.
@@ -198,6 +198,7 @@
   - Toute annulation est **tracée** avec l'utilisateur ayant déclenché l'action après contact client.
 - Différence avec le fallback : le fallback est une règle **prévue** qui s'applique seule ; l'exception est ce qui **n'est pas résolu par les règles prévues**.
 - À formaliser en projet : les critères d'automatisation vs escalade manuelle, par type d'anomalie.
+- Rôle du RPTL : **détenteur de la connaissance d'usage**, il connaît les anomalies qui reviennent et les solutions qui marchent ; il **fournit les règles de déblocage** (critères d'automatisation, cas d'escalade, ton du message client), les **teste après l'installation** sur des cas réels et les **optimise** en exploitation normale.
 
 **Visuel suggéré :** Arbre de décision (3 questions) avec deux sorties : « traitement automatique » et « escalade service client », et une trace d'audit en bas.
 

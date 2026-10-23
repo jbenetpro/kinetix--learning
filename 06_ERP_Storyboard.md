@@ -119,7 +119,7 @@
   5. **Facture fournisseur** reçue et saisie.
   6. **Rapprochement à trois** : l'ERP compare la **commande**, la **réception** et la **facture** ; s'ils concordent, la facture est validée.
   7. **Paiement** du fournisseur.
-- Rôle du RPTL : une **réception juste et rapide** conditionne le rapprochement et le paiement ; un écart de quantité ou de qualité doit être **tracé** pour justifier une réclamation.
+- Rôle du RPTL : une **réception juste et rapide** conditionne le rapprochement et le paiement ; un écart de quantité ou de qualité doit être **tracé** pour justifier une réclamation. Il **fournit les règles de réception** (quels contrôles, quelles tolérances d'écart) issues de son usage et les ajuste à l'expérience.
 - Lien WMS : la réception du module WMS (ASN, iLPN, contrôle) est la brique physique de ce cycle.
 
 **Visuel suggéré :** Frise à 7 étapes avec, en dessous, les systèmes concernés (APS, ERP, WMS, ERP, finance) et un encart « rapprochement à trois : commande / réception / facture ».
@@ -137,7 +137,7 @@
   4. **Facturation** : l'ERP émet la facture à partir de la livraison confirmée.
   5. **Encaissement** du paiement et comptabilisation.
 - Où se situe chaque système : l'OMS gère la commande et la promesse, le WMS et le TMS exécutent, l'ERP **valorise et facture**.
-- Rôle du RPTL : une **confirmation d'expédition fiable et rapide** déclenche la facturation ; un colis expédié mais non confirmé retarde la facture et la trésorerie.
+- Rôle du RPTL : une **confirmation d'expédition fiable et rapide** déclenche la facturation ; un colis expédié mais non confirmé retarde la facture et la trésorerie. Il **fournit les règles de confirmation** (moment, motif, justificatifs) et vérifie, après chaque évolution, que la facturation suit.
 - Retours : un retour client suit aussi le cycle (réception du retour, remise en stock, avoir ou remboursement).
 
 **Visuel suggéré :** Frise à 5 étapes avec les systèmes en dessous (OMS, WMS, TMS, ERP, finance), les messages « confirmation d'expédition » et « facture » mis en évidence.
@@ -166,7 +166,7 @@
 - **Facturation et trésorerie** : une expédition confirmée tard retarde la facture ; une réception mal saisie retarde le paiement fournisseur et peut dégrader la relation.
 - **Pilotage** : les données de l'ERP alimentent le reporting de direction (coûts logistiques, marge, niveau de stock).
 - **Conformité** : traçabilité, documents, pièces justificatives en cas de contrôle.
-- Rôle du RPTL : garantir que **les gestes physiques sont enregistrés à temps et sans erreur**, expliquer les écarts, et remonter les besoins métier (nouveaux codes de coûts, nouveaux indicateurs) lors des projets.
+- Rôle du RPTL : **détenteur de la connaissance d'usage**, il garantit que **les gestes physiques sont enregistrés à temps et sans erreur**, explique les écarts, **fournit les règles métier** (codes de coûts, indicateurs, règles d'écart) lors des projets et les **teste après l'installation**.
 
 **Visuel suggéré :** Carte « du geste physique à la ligne comptable » : réception → stock → facture → paiement, avec le RPTL à chaque point d'enregistrement.
 
@@ -180,7 +180,7 @@
 - **Standard vs spécifique** : un ERP propose un fonctionnement standard ; on peut l'adapter par du paramétrage ou des développements spécifiques. Plus on s'écarte du standard, plus le projet est long, coûteux et difficile à maintenir et à faire évoluer.
 - **Modèle commun** (*core model*) : un socle (processus, règles de gestion, modèles de données, référentiels) partagé entre plusieurs filiales ou sites, qui limite les écarts locaux et facilite les déploiements.
 - Phases à rappeler (module 1) : cadrage, design, build, recettes (tests unitaires, intégration, de bout en bout, d'acceptation), préparation (formation, cutover), mise en production (*go live*), hypercare, run.
-- Rôle du RPTL : **key user** (référent métier) lors du design et des recettes ; apporter les scénarios réels (pics d'activité, cas limites).
+- Rôle du RPTL : **key user** et **détenteur de la connaissance d'usage** ; il **fournit les règles métier et les scénarios réels** (pics d'activité, cas limites) au design, puis **les teste après l'installation** (recette métier, hypercare).
 
 **Visuel suggéré :** Frise des phases d'un gros projet et deux curseurs « standard ↔ spécifique » et « local ↔ modèle commun ».
 
