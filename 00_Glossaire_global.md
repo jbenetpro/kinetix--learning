@@ -106,6 +106,19 @@
 | **Surstock** | Stock supérieur au besoin prévisible, qui immobilise de la trésorerie et peut devenir obsolète. |
 | **Taux de service** | Part des demandes servies à temps et complètes. |
 
+## Module : ERP
+
+| Terme | Définition |
+|---|---|
+| **Achat-à-paiement (procure-to-pay)** | Cycle qui va du besoin d'achat au règlement du fournisseur : commande, avis d'expédition, réception, facture, rapprochement, paiement. |
+| **Commande-à-encaissement (order-to-cash)** | Cycle qui va de la commande du client à l'encaissement : commande, promesse, préparation, expédition, facturation, encaissement. |
+| **Commande fournisseur** | Document émis par l'entreprise pour commander des produits à un fournisseur ; elle sert de référence à la réception et au rapprochement de la facture. |
+| **Données de référence (données maîtres)** | Informations de base relativement stables (articles, fournisseurs, clients, sites, prix) créées dans l'ERP ou un référentiel dédié et diffusées aux autres systèmes. |
+| **Modèle commun (core model)** | Socle (processus, règles de gestion, modèles de données, référentiels) partagé entre plusieurs filiales ou sites, qui limite les écarts locaux. |
+| **Rapprochement à trois (three-way match)** | Contrôle qui compare la commande fournisseur, la réception et la facture avant de valider le paiement. |
+| **Stock comptable (valorisé)** | Stock exprimé en valeur (quantité multipliée par un coût) dans l'ERP, qui alimente le bilan ; distinct du stock physique compté et du stock disponible à la vente. |
+| **Système hôte** | Système de gestion (souvent l'ERP, parfois l'OMS) qui envoie au WMS les articles, ASN et ordres de distribution, et en reçoit les mouvements de stock et confirmations d'expédition. |
+
 ---
 
-*(Les modules suivants ajouteront leurs propres sections ici : ERP, ESB, WCS, IA, etc.)*
+*(Les modules suivants ajouteront leurs propres sections ici : WCS, ESB, IA, etc.)*
