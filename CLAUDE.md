@@ -6,11 +6,13 @@ Contenus d'une application de formation e-learning supply chain, destinée au pa
 
 - `00_Glossaire_global.md` : glossaire unique et cumulatif. Chaque module y ajoute ses termes, dans une section dédiée, par ordre alphabétique.
 - `NN_<Titre_du_module>.md` : un storyboard par module, numéroté dans l'ordre du parcours.
+- `schemas/` : schémas anonymes (SVG) référencés par les storyboards, sans nom de client, de prestataire ni de site réel.
 
 Conventions de contenu :
 - Rédaction en français.
 - Exemples contextualisés métier transport/logistique, sans citer de logiciel, d'éditeur ni de nom de client ou de projet.
 - Quand un module introduit un nouveau terme, l'ajouter aussi au glossaire global.
+- Rôle du RPTL : détenteur de la connaissance par l'usage et de l'optimisation des règles métier en exploitation normale. Dans un projet IT, il fournit les règles métier (design) et les teste après l'installation (recette, hypercare). À refléter dans les passages « rôle du RPTL » de chaque module.
 - Exception — écran "panorama du marché" en fin de chaque module système (OMS, WMS, TMS, CMS, ERP, ESB, WCS, APS...) : cet écran peut et doit citer des noms réels d'éditeurs, avec une représentation inspirée des quadrants d'analystes (Gartner Magic Quadrant / Forrester Wave). Toujours sourcer précisément (rapport, édition, lien) ; si une information ne peut pas être vérifiée intégralement (rapport payant), la marquer « à confirmer avant publication ». Toujours interdit en revanche : citer un nom de client ou de projet.
 
 ## Travail multi-appareils
