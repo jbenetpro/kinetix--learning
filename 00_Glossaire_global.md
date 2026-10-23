@@ -154,6 +154,19 @@
 | **Règlement européen sur l'IA (AI Act)** | Règlement de l'Union européenne qui encadre les systèmes d'IA en graduant les obligations selon leur niveau de risque. |
 | **Token (jeton)** | Morceau de texte (mot ou partie de mot) traité par un modèle de langage ; la longueur des textes et des contextes se mesure en tokens. |
 
+## Module : Prompting
+
+| Terme | Définition |
+|---|---|
+| **Anonymisation** | Remplacement des noms et données identifiantes (clients, prestataires, personnes) par des désignations neutres avant de saisir un texte dans un outil d'IA. |
+| **Bibliothèque de prompts** | Collection documentée et partagée de consignes éprouvées (avec objectif, version, cas de test, limites) réutilisables par une équipe. |
+| **Chaîne de prompts (prompt chaining)** | Décomposition d'une tâche complexe en plusieurs consignes successives, la sortie de l'une alimentant l'entrée de la suivante. |
+| **Exemples dans le prompt (few-shot)** | Technique qui consiste à montrer à l'IA une ou deux paires « entrée → sortie attendue » pour lui faire comprendre le style ou la logique voulus. |
+| **Injection de prompt** | Consigne cachée dans un document, une page web ou un message, destinée à détourner le comportement d'une IA ; le contenu externe doit être traité comme non fiable. |
+| **Instructions permanentes (prompt système)** | Consignes qui fixent le rôle, le ton et les règles générales d'un assistant d'IA, indépendamment de chaque demande. |
+| **Playground (espace de test)** | Environnement permettant de tester une consigne avec différents modèles ou réglages et de comparer les résultats. |
+| **Prompt** | Consigne donnée à une IA générative : question, contexte, documents, exigences et format attendu. |
+
 ---
 
-*(Les modules suivants ajouteront leurs propres sections ici : ESB, prompting, etc.)*
+*(Les modules suivants ajouteront leurs propres sections ici : ESB, etc.)*
