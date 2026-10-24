@@ -46,7 +46,7 @@
 
 **Note formateur :** Ancrer l'intérêt — ce n'est pas un module théorique abstrait, c'est le vocabulaire qu'ils vont entendre dès leur première mission en alternance.
 
-**[Exemple réel à intégrer]** — un cas vécu de déploiement système côté transport/logistique où l'apprenant/alternant a été confronté à ce vocabulaire.
+**Exemple réel (anonymisé) — cas fil rouge du module :** le déploiement, **en magasin**, d'un **nouvel outil de scan pour la préparation de marchandise**. L'objectif du projet : **fiabiliser la préparation et les stocks** en contrôlant les références préparées. Un responsable d'équipe est nommé **référent métier local** : il devient le « sachant » des process de préparation et le **key user**, chargé aussi de former les collaborateurs de proximité. En quelques semaines, il découvre un vocabulaire qu'il n'avait jamais utilisé : recueil de besoins, conception, recette, déploiement, hypercare... Ce cas sera repris aux écrans 4, 6, 9 et 10.
 
 ---
 
@@ -78,7 +78,7 @@
 
 **Visuel suggéré :** Schéma en losange avec les 4 rôles et les flèches de communication entre eux.
 
-**[Exemple réel à intégrer]** — un cas où un RPTL ou référent métier a joué un rôle clé de key user sur un projet.
+**Exemple réel (anonymisé) — reprise du cas fil rouge :** dans le déploiement de l'outil de scan en magasin, le responsable d'équipe nommé référent métier local est **le sachant des process de préparation**. C'est lui que l'on interroge pour comprendre **comment on prépare** et **quelles sont les contraintes** du terrain ; c'est lui que l'on accompagne ensuite sur **les gestes à prendre en compte dans l'outil de scan** ; c'est lui, enfin, qui **forme les collaborateurs de proximité**. Il intervient donc à **plusieurs moments** du projet : dans le **recueil de besoin**, parfois dans la **conception**, dans les **tests**, puis dans le **déploiement**.
 
 ---
 
@@ -101,7 +101,12 @@
 
 **Visuel suggéré :** 5 cartes cliquables avec icône, définition courte, rôle du métier associé.
 
-**[Exemple réel à intégrer]** — un exemple concret par phase issu d'un vécu transport/logistique.
+**Exemple réel (anonymisé) — reprise du cas fil rouge, phase par phase :**
+- **Recueil des besoins** : le key user est **interrogé** sur la façon dont on prépare aujourd'hui et sur les contraintes du magasin (volumes, horaires, types de produits). Le projet vise à fiabiliser la préparation et les stocks en contrôlant les références préparées.
+- **Conception** (parfois) : on l'**accompagne sur les gestes** à prendre en compte dans l'outil de scan (quand scanner, quoi contrôler, que faire en cas d'écart).
+- **Réalisation** : l'équipe IT paramètre l'outil ; le key user reste disponible pour répondre aux questions mais n'intervient pas directement.
+- **Tests / recette** : il **teste l'outil** avec les gestes réels de préparation et signale ce qui ne colle pas au terrain.
+- **Déploiement** : il **forme les collaborateurs de proximité** et sert de relais en cas de difficulté.
 
 ---
 
@@ -134,7 +139,11 @@
 
 **Visuel suggéré :** Tableau 2 colonnes + 1 bandeau "cas hybride, le plus fréquent en pratique".
 
-**[Exemple réel à intégrer]** — un cas de projet hybride vécu.
+**Exemple réel (anonymisé) — reprise du cas fil rouge, deux façons de conduire le projet :**
+- **En cycle en V (waterfall)** : on définit **toutes les fonctionnalités et tous les résultats attendus avant de démarrer la réalisation**. Le périmètre et le budget sont **figés à l'avance** : une amélioration repérée pendant les tests est difficile à intégrer sans remettre en cause le cadre.
+- **En cycle agile** : on définit **les orientations et les attentes**, puis on **démarre la réalisation pendant que les étapes suivantes sont encore en conception**. On s'autorise à **adapter** l'outil quand les tests font apparaître une modification utile ou une amélioration possible.
+- Ce même projet aurait donc pu être traité de **plusieurs façons** ; le choix dépend du degré de certitude sur le besoin et de la disponibilité des équipes terrain.
+- *Reste à fournir (optionnel) :* un cas de projet **hybride** vécu pour illustrer la combinaison des deux approches.
 
 ---
 
@@ -146,7 +155,7 @@
 
 **Visuel suggéré :** Mini-cas interactif (glisser-déposer ou QCM court intégré à l'écran, distinct du quiz final).
 
-**[Exemple réel à intégrer]** — un cas vécu de besoin mal cadré et ses conséquences concrètes.
+**Exemple réel (anonymisé) — reprise du cas fil rouge, ce qui se passe si le cadrage est insuffisant :** si le projet d'outil de scan est **mal cadré** ou **mal accompagné**, le déploiement peut **ne pas être adopté sur le terrain** ou **ne pas répondre aux exigences du terrain**. Le projet aura alors **coûté de l'argent sans générer de valeur**. Tout part de la même question, posée dès le départ : **pourquoi le projet existe-t-il, quelle valeur doit-il livrer, et à qui ?** (ici : fiabiliser la préparation et les stocks pour les équipes du magasin).
 
 ---
 
@@ -184,6 +193,6 @@
 Les termes de ce module ont été ajoutés au [glossaire global](00_Glossaire_global.md) de la formation.
 
 ## Points ouverts / à valider avec toi
-1. Les **[Exemple réel à intégrer]** repérés dans ce document (écrans 1, 4, 6, 9, 10) — peux-tu me fournir les cas concrets correspondants (anonymisés) pour que je les intègre ?
+1. **Exemples réels** : le cas fil rouge (déploiement d'un outil de scan en magasin, avec un responsable d'équipe key user) est intégré aux écrans 1, 4, 6, 9 et 10. Reste optionnel : un cas de projet **hybride** (écran 9) et, si possible, un chiffre ou un effet constaté sur le cas (fiabilité de préparation, écarts de stock) à valider et anonymiser.
 2. Les 10 questions du quiz sont à finaliser — veux-tu que je rédige les réponses/options complètes et les feedbacks associés dès maintenant, ou on valide d'abord la structure globale du module ?
 3. Faut-il que j'enrichisse l'écran 10 ("vérifier avant d'agir") avec un exercice plus développé, ou rester léger puisque ce principe sera retravaillé dans chaque module système ?
