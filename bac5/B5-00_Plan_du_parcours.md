@@ -37,7 +37,7 @@
 2. **Décisions de manager** : arbitrages (coût / délai / service / charge / carbone), paramétrage stratégique, organisation et compétences.
 3. **Leviers d'optimisation** : où gagner du temps, de la marge, du service (avec ordres de grandeur illustratifs).
 4. **L'IA comme levier** : gain de temps, compétitivité, atteinte des objectifs ; conditions (données, gouvernance) ; coût ; limites.
-5. **Durabilité** : ce que le système mesure, ce qu'il permet d'optimiser, les arbitrages.
+5. **Durabilité** : ce que le système mesure, ce qu'il permet d'optimiser **par les règles métier qu'il applique**, les arbitrages.
 6. **Organisation et rôles** : qui fait quoi (key users, équipes, prestataires), conduite du changement.
 7. **Indicateurs** de pilotage.
 8. **Étude de cas** avec réponse libre.
@@ -57,7 +57,7 @@ Durée indicative : 35–45 minutes par module.
 ### Bloc 2 — Piloter et optimiser les systèmes (gabarit §2)
 | # | Module | Objectifs clés | Item du plan drafté | Base de contenu |
 |---|---|---|---|---|
-| B5-03 | **OMS : promesse, service et rentabilité omnicanale** | Stratégie de promesse et de sourcing ; arbitrage service / coût / charge des sites ; exceptions ; IA pour la promesse et les exceptions | Extension du mémo (OMS) | Notes OMS ; couche IA à ajouter |
+| B5-03 | **OMS : promesse, service et rentabilité omnicanale** | Stratégie de promesse et de sourcing ; **définir les règles métier et de sourcing que l'OMS applique** (source la plus proche, expéditions partielles, transferts entre sites — en lien avec le positionnement des stocks par l'APS) ; arbitrage service / coût / charge / carbone ; exceptions ; IA pour fiabiliser les règles, la promesse et les exceptions | Extension du mémo (OMS) | Notes OMS ; couche IA à ajouter |
 | B5-04 | **Entrepôt (WMS et WCS) : productivité, mécanisation et IA** | Leviers de productivité ; business case de mécanisation ; **optimisation par l'IA du stockage, des vagues et des ressources** | Optimisation entrepôts par IA | Cours ICAM (WMS, WCS) ; couche IA à ajouter |
 | B5-05 | **Transport (TMS) : coût, service et empreinte** | Stratégie de transport, affrètement, contrats ; arbitrage coût / délai / carbone ; **IA prédictive et générative pour le transport** | IA appliquée au TMS | Cours ICAM (TMS) ; couche IA à ajouter |
 | B5-06 | **Planification et ERP : stocks, trésorerie et décisions** | S&OP, stocks cibles, répartition ; impact sur la trésorerie et les coûts ; gouvernance des données de référence ; IA pour la prévision et les scénarios | Extension du mémo (APS) | Aucun support |
@@ -101,13 +101,15 @@ Durée indicative : 35–45 minutes par module.
 - **Module B5-09** : le coût de l'IA, pour garder une vue équilibrée.
 - **Option Bac+3** : ajouter plus tard un court passage « durabilité » aux modules système existants (le TMS évoque déjà le calcul de CO2, et le module OMS de l'école listait « respect de l'environnement » comme évolution à venir de la promesse).
 
+**Principe commun** : un système soutient la durabilité surtout par les **règles métier que l'on définit et qu'il applique**. Le manager les définit (avec le terrain), le système les exécute, l'IA aide à les **fiabiliser**.
+
 **Ce que chaque système peut apporter** (pistes à développer et à sourcer) :
 | Système | Leviers de durabilité |
 |---|---|
-| OMS | Choix de la source de préparation la plus proche ; limiter les expéditions partielles et les colis multiples ; critères environnementaux dans le score de sourcing ; retours optimisés |
+| OMS | Le soutien passe par les **règles métier et les règles de sourcing que l'on définit et que l'OMS applique** : choix de la source de préparation la plus proche, limitation des expéditions partielles et des colis multiples, réduction des transferts entre sites, critères environnementaux dans le score de sourcing, retours optimisés. Les transferts entre sites sont réduits en amont par l'**APS**, qui positionne les stocks au bon moment et au bon endroit. L'**IA** peut **fiabiliser** ces règles (vérifier leur cohérence, détecter les cas où elles ne s'appliquent pas comme prévu, simuler leur effet, fiabiliser les données de stock et de délai sur lesquelles elles reposent) ; elle ne les remplace pas |
 | WMS / WCS | Moins d'air transporté (cubing, emballages) ; moins de déplacements ; gestion des dates limites pour limiter le gaspillage ; stock fiable donc moins de rebuts ; efficacité énergétique et maintenance prédictive des équipements |
 | TMS | Choix du mode selon l'empreinte, remplissage des véhicules, groupage, itinéraires, calcul des émissions par expédition, critères carbone dans les appels d'offres |
-| APS | Meilleure prévision donc moins de surstock et d'obsolescence ; moins d'expéditions urgentes très émettrices ; stocks mieux positionnés |
+| APS | Meilleure prévision donc moins de surstock et d'obsolescence ; moins d'expéditions urgentes très émettrices ; **positionnement des stocks au bon moment et au bon endroit**, ce qui réduit les transferts entre sites et les expéditions partielles côté OMS |
 | ERP | Données de référence et imputation des coûts et des émissions ; reporting ; achats responsables via la gestion des fournisseurs |
 | IA | Prévision, optimisation d'itinéraires, détection d'anomalies, calcul d'empreinte plus fin — mais avec son propre coût énergétique (voir §6) |
 
