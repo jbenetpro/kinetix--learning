@@ -168,6 +168,36 @@
 | **Playground (espace de test)** | Environnement permettant de tester une consigne avec différents modèles ou réglages et de comparer les résultats. |
 | **Prompt** | Consigne donnée à une IA générative : question, contexte, documents, exigences et format attendu. |
 
+## Module Bac+5 : L'écosystème étendu
+
+| Terme | Définition |
+|---|---|
+| **3PL (third-party logistics)** | Prestataire qui exécute des opérations logistiques (transport, entreposage, préparation de commandes) pour le compte d'un chargeur. |
+| **4PL (fourth-party logistics)** | Intégrateur ou orchestrateur qui conçoit, pilote et optimise tout ou partie de la supply chain d'un client en coordonnant plusieurs prestataires 3PL et les technologies, souvent sans actifs propres. Définition variable selon les sources. |
+| **5PL (fifth-party logistics)** | Terme peu stabilisé désignant en général un orchestrateur de réseaux et de plateformes numériques qui rassemble plusieurs acteurs et s'appuie sur les données. Définition variable selon les sources, à confirmer. |
+| **ESN (entreprise de services du numérique)** | Société de services qui paramètre, intègre, déploie et maintient des systèmes d'information pour le compte de clients. |
+| **Forfait / régie** | Deux modèles de facturation d'une prestation : le forfait fixe un prix pour un périmètre défini ; la régie facture le temps passé. |
+| **Réversibilité** | Capacité à reprendre ou à changer de prestataire ou de solution en récupérant ses données dans un format exploitable, prévue dès le contrat. |
+| **RFI (request for information)** | Demande d'information adressée à des candidats pour explorer le marché et présélectionner. |
+| **RFP (request for proposal) / appel d'offres** | Cahier des charges avec scénarios et critères de choix auquel les candidats répondent par une proposition chiffrée. |
+| **RFQ (request for quotation)** | Demande de prix sur un besoin déjà précisément défini. |
+| **SLA (service level agreement)** | Accord de niveau de service : engagement mesurable du prestataire (disponibilité, délais, taux de service) avec pénalités éventuelles. |
+| **TCO (total cost of ownership)** | Coût total de possession d'une solution : licences ou abonnement, intégration, données, formation, maintenance, évolutions, sortie. |
+| **Verrouillage fournisseur (lock-in)** | Dépendance qui rend coûteux le changement de prestataire ou de solution (spécifique, données, compétences). |
+
+## Module Bac+5 : Les flux de bout en bout
+
+| Terme | Définition |
+|---|---|
+| **Cartographie de flux** | Représentation d'un flux de bout en bout (étapes, acteurs, systèmes, données, délais, règles), construite avec le terrain, qui sert de langage commun. |
+| **Flux d'information** | Messages et statuts qui décrivent et pilotent le flux physique (commande, ordre de préparation, confirmation d'expédition, suivi). |
+| **Flux financier** | Facturation, paiement, valorisation du stock et coûts, déclenchés par des événements physiques et d'information. |
+| **Flux physique** | Mouvement de la marchandise (réception, stockage, préparation, transport, livraison, retours). |
+| **Goulot d'étranglement** | Étape qui limite le débit de l'ensemble d'un flux ; améliorer ailleurs n'augmente pas la performance. |
+| **Jumeau numérique** | Réplique virtuelle d'un site ou d'un flux, alimentée par des données réelles, utilisée pour tester des scénarios avant de les appliquer. |
+| **Propriétaire de flux (process owner)** | Personne responsable de la performance d'un flux de bout en bout, quels que soient les services traversés. |
+| **Tour de contrôle (control tower)** | Vue consolidée, en quasi temps réel, des flux de plusieurs systèmes et acteurs, avec alertes et aide à la décision. |
+
 ---
 
 *(Chaque nouveau module ajoute ici sa propre section.)*
