@@ -198,6 +198,49 @@
 | **Propriétaire de flux (process owner)** | Personne responsable de la performance d'un flux de bout en bout, quels que soient les services traversés. |
 | **Tour de contrôle (control tower)** | Vue consolidée, en quasi temps réel, des flux de plusieurs systèmes et acteurs, avec alertes et aide à la décision. |
 
+## Module Bac+5 : OMS : promesse, service et rentabilité omnicanale
+
+| Terme | Définition |
+|---|---|
+| **Coût de service (cost to serve)** | Coût total pour servir une commande (préparation, transport, emballage, retours), qui varie selon la source et le canal. |
+| **Règle de sourcing** | Règle appliquée par l'OMS pour choisir la source d'une commande : condition, action, priorité et repli. Les règles encodent des arbitrages entre service, coût, charge et carbone. |
+| **Score de sourcing** | Note attribuée à chaque source candidate à partir de critères pondérés (délai, coût, stock, capacité, carbone) ; la meilleure est retenue. |
+| **Taux de split** | Part des commandes qui partent en plusieurs colis ou depuis plusieurs sources. |
+
+## Module Bac+5 : Entrepôt (WMS et WCS) : productivité, mécanisation et IA
+
+| Terme | Définition |
+|---|---|
+| **Business case de mécanisation** | Analyse chiffrée d'un projet de mécanisation : coûts, gains, risques, sensibilité aux volumes et alternatives, avec critères non financiers. |
+| **Slotting** | Affectation des références aux emplacements de l'entrepôt selon leur rotation, pour réduire les déplacements. |
+
+## Module Bac+5 : Transport (TMS) : coût, service et empreinte
+
+| Terme | Définition |
+|---|---|
+| **Audit et paiement des frais de transport (freight audit)** | Contrôle de chaque facture de transport par rapport à l'expédition (poids, destination, tarif, surcharges) pour détecter les écarts. |
+| **Intensité carbone (transport)** | Émissions rapportées à l'activité de transport, souvent exprimées par tonne-kilomètre. |
+| **Spot / contrat (transport)** | Le spot est l'achat de transport à la demande au prix du moment ; le contrat engage des volumes à un prix négocié. |
+
+## Module Bac+5 : Planification et ERP : stocks, trésorerie et décisions
+
+| Terme | Définition |
+|---|---|
+| **Coût de possession du stock** | Coût annuel de détention d'un stock : capital immobilisé, espace, assurance, obsolescence, démarque. |
+| **Cycle de trésorerie (cash-to-cash)** | Jours de stock plus jours de crédit client moins jours de crédit fournisseur ; mesure le temps pendant lequel l'argent est immobilisé. |
+| **Niveau de service cible** | Taux de disponibilité visé pour un segment d'articles ; son coût marginal augmente avec le niveau visé. |
+| **Segmentation des articles** | Classement des articles selon leur valeur, leur rotation, la variabilité de leur demande ou leur criticité, pour leur appliquer des politiques différentes. |
+
+## Module Bac+5 : Piloter la performance avec les données et l'IA
+
+| Terme | Définition |
+|---|---|
+| **Fiche d'indicateur** | Document qui définit un indicateur : objectif, formule, périmètre, source, fréquence, propriétaire, seuils, limites. |
+| **Gouvernance des données** | Ensemble de règles et de responsabilités (propriétaires, règles de création, contrôles, revue) qui garantissent la qualité des données. |
+| **Indicateur de résultat / de moyens** | Un indicateur de résultat mesure ce qu'on obtient (taux de service, coût) ; un indicateur de moyens mesure ce qu'on fait pour l'obtenir (taux de remplissage, qualité des données). |
+| **OTIF (on time in full)** | Part des commandes livrées à la date promise et complètes. |
+| **Qualité des données** | Aptitude des données à être utilisées : exactitude, complétude, cohérence, fraîcheur, unicité. |
+
 ---
 
 *(Chaque nouveau module ajoute ici sa propre section.)*
