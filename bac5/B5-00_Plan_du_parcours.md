@@ -28,6 +28,7 @@
 - **Niveau managérial** : décisions, arbitrages, organisation, coûts, indicateurs, risques, gouvernance — jamais un tutoriel d'outil. La couche marché reste **informative** et critique.
 - **Durabilité en fil rouge** : un bloc standard « durabilité » dans chaque module système, plus des modules dédiés (voir §5).
 - **IA sous contrôle humain expert**, coût et limites compris.
+- **L'IA, soutien transversal à la gouvernance des règles et des données** de tous les systèmes (voir §4 bis).
 - **Évaluation** : QCM, **réponses libres** et études de cas ; contrôle par module et global ; questions rattachées à un objectif pour le **diagnostic de remédiation**.
 - **Exemples réels anonymisés** (aucun client, projet, prestataire, site, établissement nommé).
 - **Pas de séquencement imposé** pour la validation ; l'ordre ci-dessous est recommandé.
@@ -36,7 +37,7 @@
 1. **Rôle stratégique** du système dans l'organisation et dans la performance de l'entreprise.
 2. **Décisions de manager** : arbitrages (coût / délai / service / charge / carbone), paramétrage stratégique, organisation et compétences.
 3. **Leviers d'optimisation** : où gagner du temps, de la marge, du service (avec ordres de grandeur illustratifs).
-4. **L'IA comme levier** : gain de temps, compétitivité, atteinte des objectifs ; conditions (données, gouvernance) ; coût ; limites.
+4. **L'IA comme levier** : gain de temps, compétitivité, atteinte des objectifs ; **fiabilisation des règles et des référentiels du système** (voir §4 bis) ; conditions (données, gouvernance) ; coût ; limites.
 5. **Durabilité** : ce que le système mesure, ce qu'il permet d'optimiser **par les règles métier qu'il applique**, les arbitrages.
 6. **Organisation et rôles** : qui fait quoi (key users, équipes, prestataires), conduite du changement.
 7. **Indicateurs** de pilotage.
@@ -57,11 +58,11 @@ Durée indicative : 35–45 minutes par module.
 ### Bloc 2 — Piloter et optimiser les systèmes (gabarit §2)
 | # | Module | Objectifs clés | Item du plan drafté | Base de contenu |
 |---|---|---|---|---|
-| B5-03 | **OMS : promesse, service et rentabilité omnicanale** | Stratégie de promesse et de sourcing ; **définir les règles métier et de sourcing que l'OMS applique** (source la plus proche, expéditions partielles, transferts entre sites — en lien avec le positionnement des stocks par l'APS) ; arbitrage service / coût / charge / carbone ; exceptions ; IA pour fiabiliser les règles, la promesse et les exceptions | Extension du mémo (OMS) | Notes OMS ; couche IA à ajouter |
-| B5-04 | **Entrepôt (WMS et WCS) : productivité, mécanisation et IA** | Leviers de productivité ; business case de mécanisation ; **optimisation par l'IA du stockage, des vagues et des ressources** | Optimisation entrepôts par IA | Cours ICAM (WMS, WCS) ; couche IA à ajouter |
-| B5-05 | **Transport (TMS) : coût, service et empreinte** | Stratégie de transport, affrètement, contrats ; arbitrage coût / délai / carbone ; **IA prédictive et générative pour le transport** | IA appliquée au TMS | Cours ICAM (TMS) ; couche IA à ajouter |
-| B5-06 | **Planification et ERP : stocks, trésorerie et décisions** | S&OP, stocks cibles, répartition ; impact sur la trésorerie et les coûts ; gouvernance des données de référence ; IA pour la prévision et les scénarios | Extension du mémo (APS) | Aucun support |
-| B5-07 | **Piloter la performance avec les données et l'IA** | Indicateurs, tableaux de bord, qualité des données ; **IA au service du suivi** (détection d'écarts, explications, anticipation) ; décider à partir des chiffres | IA au suivi de performance | Aucun support |
+| B5-03 | **OMS : promesse, service et rentabilité omnicanale** | Stratégie de promesse et de sourcing ; **définir les règles métier et de sourcing que l'OMS applique** (source la plus proche, expéditions partielles, transferts entre sites — en lien avec le positionnement des stocks par l'APS) ; arbitrage service / coût / charge / carbone ; exceptions ; IA pour fiabiliser les règles (erreurs, contradictions, simulation avant application), la promesse et les exceptions | Extension du mémo (OMS) | Notes OMS ; couche IA à ajouter |
+| B5-04 | **Entrepôt (WMS et WCS) : productivité, mécanisation et IA** | Leviers de productivité ; business case de mécanisation ; **optimisation par l'IA du stockage, des vagues et des ressources** ; fiabilisation des règles de vague, de tolérance et des référentiels articles | Optimisation entrepôts par IA | Cours ICAM (WMS, WCS) ; couche IA à ajouter |
+| B5-05 | **Transport (TMS) : coût, service et empreinte** | Stratégie de transport, affrètement, contrats ; arbitrage coût / délai / carbone ; **IA prédictive et générative pour le transport** ; fiabilisation des règles de schéma de transport et des grilles tarifaires | IA appliquée au TMS | Cours ICAM (TMS) ; couche IA à ajouter |
+| B5-06 | **Planification et ERP : stocks, trésorerie et décisions** | S&OP, stocks cibles, répartition ; impact sur la trésorerie et les coûts ; gouvernance des données de référence ; IA pour la prévision, les scénarios et la fiabilisation des paramètres et des référentiels | Extension du mémo (APS) | Aucun support |
+| B5-07 | **Piloter la performance avec les données et l'IA** | Indicateurs, tableaux de bord, qualité des données ; **IA au service du suivi** (détection d'écarts, explications, anticipation) ; qualité et simplification des bases de données et des référentiels ; décider à partir des chiffres | IA au suivi de performance | Aucun support |
 
 ### Bloc 3 — Durabilité
 | # | Module | Objectifs clés | Item du plan drafté | Base de contenu |
@@ -90,6 +91,23 @@ Durée indicative : 35–45 minutes par module.
 | Optimisation entrepôts par IA (stockage, vagues, ressources) | **B5-04** | |
 | IA au service du suivi de performance | **B5-07** | |
 | *Ajouts de la v2* | B5-08, B5-09 (durabilité) ; B5-10 (organisation) ; B5-12 (synthèse) | Durabilité demandée par l'école ; organisation et synthèse issues du brief et de l'orientation managériale. |
+
+---
+
+## 4 bis. L'IA, soutien transversal à la gouvernance des règles et des données
+
+Quel que soit le système (OMS, WMS, WCS, TMS, APS, ERP), les règles métier et les données de référence s'accumulent, se modifient et finissent par se contredire. L'IA apporte quatre soutiens, **sous validation humaine** :
+
+| Usage | Ce que l'IA apporte | Exemple (illustratif) |
+|---|---|---|
+| **Repérer les règles mal saisies** | Détecte les valeurs aberrantes, les paramètres hors plage, les règles incomplètes ou mal formulées | Une tolérance de pesée saisie avec le mauvais ordre de grandeur (WMS, WCS) |
+| **Mettre en évidence les contradictions** | Signale les règles qui entrent en conflit entre elles ou avec des règles déjà en place : priorités incompatibles, doublons, règles jamais atteintes, ordre d'application | Deux règles de sourcing qui donnent des sources différentes pour la même commande (OMS) ; une grille tarifaire qui se chevauche (TMS) |
+| **Simuler les effets avant application** | Rejoue la règle sur des données historiques et montre l'impact attendu sur le service, le coût, la charge et l'empreinte carbone, avant la mise en production | Effet d'un changement de règle de repli sur la charge des sites (OMS) ; d'un paramètre de délai sur les stocks (APS) |
+| **Simplifier la gestion des bases de données** | Aide à nettoyer et à rationaliser : doublons dans les référentiels, valeurs obsolètes, règles redondantes ou périmées, documentation des règles en langage clair | Doublons d'articles ou de fournisseurs (ERP) ; règles de tri devenues inutiles (WCS) |
+
+**Conditions** : l'IA **propose**, le manager et les équipes **décident** ; chaque changement est **tracé** (qui, quoi, pourquoi) ; on s'appuie sur un jeu de **cas de test** et sur la **connaissance d'usage** des équipes terrain, qui testent après l'installation ; le **coût** de ces outils est mis en balance avec les gains (voir B5-09).
+
+**Où c'est traité** : dans le bloc « IA » de chaque module système (B5-03 à B5-07), en synthèse dans B5-12 (simuler avant de présenter) et dans B5-07 pour la qualité des données.
 
 ---
 
