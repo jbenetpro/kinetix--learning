@@ -241,6 +241,31 @@
 | **OTIF (on time in full)** | Part des commandes livrées à la date promise et complètes. |
 | **Qualité des données** | Aptitude des données à être utilisées : exactitude, complétude, cohérence, fraîcheur, unicité. |
 
+## Module Bac+5 : Supply chain durable : mesurer, piloter, arbitrer
+
+| Terme | Définition |
+|---|---|
+| **Données primaires / secondaires** | Les données primaires sont mesurées (par exemple fournies par le prestataire) ; les données secondaires sont des valeurs moyennes ou estimées. |
+| **Empreinte carbone** | Quantité de gaz à effet de serre émise par une activité, un produit ou une organisation, exprimée en équivalent CO2. |
+| **Facteur d'émission** | Coefficient qui convertit une quantité d'activité (par exemple des tonnes-kilomètres) en émissions ; il peut couvrir la combustion seule ou le cycle complet de l'énergie. |
+| **Logistique inverse** | Flux de retour (retours clients, produits endommagés, emballages, produits en fin de vie) et leur orientation vers la remise en stock, le reconditionnement, le recyclage ou le rebut. |
+| **Prix interne du carbone** | Valeur attribuée en interne à la tonne de CO2 pour intégrer le carbone dans les décisions économiques. |
+| **Écoblanchiment (greenwashing)** | Allégation environnementale trompeuse ou non démontrée (par exemple « livraison verte » sans méthode ni preuve). |
+| **Économie circulaire** | Modèle qui prolonge la durée de vie des produits et des matériaux : réemploi, reconditionnement, réparation, recyclage, seconde vie. |
+| **Émissions de scope 1, 2 et 3** | Périmètres de comptabilité des gaz à effet de serre : le scope 1 couvre les émissions directes, le scope 2 l'énergie achetée, le scope 3 les autres émissions indirectes en amont et en aval (dont le transport par des prestataires et les achats). |
+
+## Module Bac+5 : Le coût de l'IA : business case, sobriété et bilan net
+
+| Terme | Définition |
+|---|---|
+| **Bilan net (carbone)** | Émissions évitées grâce à une optimisation moins émissions induites par le numérique et l'IA, sur la même période et le même périmètre. |
+| **Délai de retour (payback) / ROI** | Délai de retour : temps nécessaire pour que les gains cumulés couvrent l'investissement. ROI (retour sur investissement) : rapport entre le gain net et l'investissement. |
+| **Dérive d'un modèle** | Dégradation de la performance d'un modèle d'IA lorsque le contexte ou les données évoluent par rapport à ceux de son apprentissage. |
+| **Effet rebond** | Phénomène par lequel un gain d'efficacité stimule les volumes ou les usages et annule une partie du bénéfice attendu. |
+| **Inférence** | Utilisation d'un modèle d'IA déjà entraîné pour produire une réponse ; répétée à grande échelle, elle contribue à l'empreinte de l'IA. |
+| **Preuve de concept (POC)** | Essai limité d'une solution avec des critères de réussite définis à l'avance ; le risque est le pilote permanent, sans décision d'industrialisation. |
+| **Sobriété numérique** | Démarche qui vise la valeur au moindre coût et à la moindre empreinte : choisir la solution la plus simple qui suffit. |
+
 ---
 
 *(Chaque nouveau module ajoute ici sa propre section.)*
