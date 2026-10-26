@@ -266,6 +266,37 @@
 | **Preuve de concept (POC)** | Essai limité d'une solution avec des critères de réussite définis à l'avance ; le risque est le pilote permanent, sans décision d'industrialisation. |
 | **Sobriété numérique** | Démarche qui vise la valeur au moindre coût et à la moindre empreinte : choisir la solution la plus simple qui suffit. |
 
+## Module Bac+5 : Organiser et conduire la transformation
+
+| Terme | Définition |
+|---|---|
+| **Comité de pilotage (COPIL)** | Instance de gouvernance d'un projet qui prend les décisions stratégiques, arbitre et débloque les ressources, autour du sponsor. |
+| **Conduite du changement** | Démarche qui accompagne les personnes dans l'adoption d'une transformation : analyse d'impact, communication, formation, accompagnement, mesure de l'adoption. |
+| **Gestion des bénéfices** | Suivi de la réalisation des bénéfices attendus d'un projet : propriétaires, indicateurs, dates de revue, actions déclenchantes. |
+| **Matrice RACI** | Tableau qui précise, pour chaque décision ou livrable, qui est Responsable, Approbateur, Consulté et Informé. |
+| **Mise en production complète ou progressive (full / soft go live)** | La mise en production complète bascule tout le périmètre d'un coup ; la progressive bascule par étapes, par site ou par fonction. |
+| **Réseau de relais métier** | Ensemble de key users ou de référents formés pour accompagner leurs collègues dans l'adoption d'un changement. |
+
+## Module Bac+5 : Comment l'IA transforme la supply chain
+
+| Terme | Définition |
+|---|---|
+| **Copilote (IA)** | Assistant d'IA intégré à un outil ou à un poste de travail, qui explique, résume et propose, l'utilisateur gardant la décision. |
+| **Niveau d'autonomie (IA)** | Degré de délégation donné à un système d'IA : informer, recommander, préparer avec validation humaine, exécuter dans un périmètre limité, exécuter de façon autonome. |
+| **Souveraineté des données** | Maîtrise de l'hébergement, de l'accès et de la juridiction applicable aux données d'une organisation. |
+| **Supply chain autonome** | Vision d'une chaîne logistique où des systèmes d'IA surveillent, décident et agissent sur de nombreux flux avec une supervision humaine minimale. |
+| **Veille stratégique** | Démarche régulière de suivi des technologies, des usages, de la réglementation et des retours d'expérience, avec une grille d'évaluation des annonces. |
+| **Visibilité de bout en bout** | Capacité à suivre commandes, stocks et transports sur l'ensemble de la chaîne, y compris chez les partenaires, grâce au partage de données. |
+
+## Module Bac+5 : Challenger une simulation IA avant un comité de direction
+
+| Terme | Définition |
+|---|---|
+| **Analyse de sensibilité** | Étude de l'effet de la variation d'une hypothèse (volumes, délais, capacités) sur les résultats d'une simulation, pour identifier celles qui changent la décision. |
+| **Backtesting (test sur l'historique)** | Vérification qu'un modèle ou une simulation retrouve les résultats d'une période passée connue. |
+| **Explicabilité** | Capacité à expliquer, en termes simples, pourquoi un système ou une recommandation produit un résultat. |
+| **Hypothèse implicite** | Supposition utilisée par une simulation ou un plan sans être écrite (par exemple une capacité constante ou l'absence de retours). |
+
 ---
 
 *(Chaque nouveau module ajoute ici sa propre section.)*
