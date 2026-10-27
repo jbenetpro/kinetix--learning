@@ -7,7 +7,7 @@ Contenus d'une application de formation e-learning supply chain, destinée au pa
 - `00_Glossaire_global.md` : glossaire unique et cumulatif. Chaque module y ajoute ses termes, dans une section dédiée, par ordre alphabétique.
 - `NN_<Titre_du_module>.md` : un storyboard par module, numéroté dans l'ordre du parcours.
 - `schemas/` : schémas anonymes (SVG) référencés par les storyboards, sans nom de client, de prestataire ni de site réel.
-- `bac5/` : parcours Bac+5 (plan `B5-00_Plan_du_parcours.md`, storyboards `B5-NN_<Titre>_Storyboard.md`). Mêmes conventions de contenu que le Bac+3 ; le glossaire reste commun (sections « Module Bac+5 : … »). Persona du Bac+5 : consultant, Business Analyst, chef de projet digital, supply chain manager — celui qui reçoit la connaissance d'usage du terrain, la formalise, arbitre et challenge.
+- `bac5/` : parcours Bac+5 (plan `B5-00_Plan_du_parcours.md`, storyboards `B5-NN_<Titre>_Storyboard.md`). Mêmes conventions de contenu que le Bac+3 ; le glossaire reste commun (sections « Module Bac+5 : … »). Persona du Bac+5 : futur manager de la supply chain (prépondérance du management d'organisation), et par extension consultant ou chef de projet digital — celui qui reçoit la connaissance d'usage du terrain, organise, arbitre et challenge. Les systèmes passent avant l'IA ; l'IA est un levier d'efficacité traité dans chaque module système, puis un objet d'ouverture. La durabilité est un fil rouge.
 
 Conventions de contenu :
 - Rédaction en français.

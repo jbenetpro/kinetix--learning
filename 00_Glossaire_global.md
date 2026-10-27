@@ -168,6 +168,135 @@
 | **Playground (espace de test)** | Environnement permettant de tester une consigne avec différents modèles ou réglages et de comparer les résultats. |
 | **Prompt** | Consigne donnée à une IA générative : question, contexte, documents, exigences et format attendu. |
 
+## Module Bac+5 : L'écosystème étendu
+
+| Terme | Définition |
+|---|---|
+| **3PL (third-party logistics)** | Prestataire qui exécute des opérations logistiques (transport, entreposage, préparation de commandes) pour le compte d'un chargeur. |
+| **4PL (fourth-party logistics)** | Intégrateur ou orchestrateur qui conçoit, pilote et optimise tout ou partie de la supply chain d'un client en coordonnant plusieurs prestataires 3PL et les technologies, souvent sans actifs propres. Définition variable selon les sources. |
+| **5PL (fifth-party logistics)** | Terme peu stabilisé désignant en général un orchestrateur de réseaux et de plateformes numériques qui rassemble plusieurs acteurs et s'appuie sur les données. Définition variable selon les sources, à confirmer. |
+| **ESN (entreprise de services du numérique)** | Société de services qui paramètre, intègre, déploie et maintient des systèmes d'information pour le compte de clients. |
+| **Forfait / régie** | Deux modèles de facturation d'une prestation : le forfait fixe un prix pour un périmètre défini ; la régie facture le temps passé. |
+| **Réversibilité** | Capacité à reprendre ou à changer de prestataire ou de solution en récupérant ses données dans un format exploitable, prévue dès le contrat. |
+| **RFI (request for information)** | Demande d'information adressée à des candidats pour explorer le marché et présélectionner. |
+| **RFP (request for proposal) / appel d'offres** | Cahier des charges avec scénarios et critères de choix auquel les candidats répondent par une proposition chiffrée. |
+| **RFQ (request for quotation)** | Demande de prix sur un besoin déjà précisément défini. |
+| **SLA (service level agreement)** | Accord de niveau de service : engagement mesurable du prestataire (disponibilité, délais, taux de service) avec pénalités éventuelles. |
+| **TCO (total cost of ownership)** | Coût total de possession d'une solution : licences ou abonnement, intégration, données, formation, maintenance, évolutions, sortie. |
+| **Verrouillage fournisseur (lock-in)** | Dépendance qui rend coûteux le changement de prestataire ou de solution (spécifique, données, compétences). |
+
+## Module Bac+5 : Les flux de bout en bout
+
+| Terme | Définition |
+|---|---|
+| **Cartographie de flux** | Représentation d'un flux de bout en bout (étapes, acteurs, systèmes, données, délais, règles), construite avec le terrain, qui sert de langage commun. |
+| **Flux d'information** | Messages et statuts qui décrivent et pilotent le flux physique (commande, ordre de préparation, confirmation d'expédition, suivi). |
+| **Flux financier** | Facturation, paiement, valorisation du stock et coûts, déclenchés par des événements physiques et d'information. |
+| **Flux physique** | Mouvement de la marchandise (réception, stockage, préparation, transport, livraison, retours). |
+| **Goulot d'étranglement** | Étape qui limite le débit de l'ensemble d'un flux ; améliorer ailleurs n'augmente pas la performance. |
+| **Jumeau numérique** | Réplique virtuelle d'un site ou d'un flux, alimentée par des données réelles, utilisée pour tester des scénarios avant de les appliquer. |
+| **Propriétaire de flux (process owner)** | Personne responsable de la performance d'un flux de bout en bout, quels que soient les services traversés. |
+| **Tour de contrôle (control tower)** | Vue consolidée, en quasi temps réel, des flux de plusieurs systèmes et acteurs, avec alertes et aide à la décision. |
+
+## Module Bac+5 : OMS : promesse, service et rentabilité omnicanale
+
+| Terme | Définition |
+|---|---|
+| **Coût de service (cost to serve)** | Coût total pour servir une commande (préparation, transport, emballage, retours), qui varie selon la source et le canal. |
+| **Règle de sourcing** | Règle appliquée par l'OMS pour choisir la source d'une commande : condition, action, priorité et repli. Les règles encodent des arbitrages entre service, coût, charge et carbone. |
+| **Score de sourcing** | Note attribuée à chaque source candidate à partir de critères pondérés (délai, coût, stock, capacité, carbone) ; la meilleure est retenue. |
+| **Taux de split** | Part des commandes qui partent en plusieurs colis ou depuis plusieurs sources. |
+
+## Module Bac+5 : Entrepôt (WMS et WCS) : productivité, mécanisation et IA
+
+| Terme | Définition |
+|---|---|
+| **Business case de mécanisation** | Analyse chiffrée d'un projet de mécanisation : coûts, gains, risques, sensibilité aux volumes et alternatives, avec critères non financiers. |
+| **Slotting** | Affectation des références aux emplacements de l'entrepôt selon leur rotation, pour réduire les déplacements. |
+
+## Module Bac+5 : Transport (TMS) : coût, service et empreinte
+
+| Terme | Définition |
+|---|---|
+| **Audit et paiement des frais de transport (freight audit)** | Contrôle de chaque facture de transport par rapport à l'expédition (poids, destination, tarif, surcharges) pour détecter les écarts. |
+| **Intensité carbone (transport)** | Émissions rapportées à l'activité de transport, souvent exprimées par tonne-kilomètre. |
+| **Spot / contrat (transport)** | Le spot est l'achat de transport à la demande au prix du moment ; le contrat engage des volumes à un prix négocié. |
+
+## Module Bac+5 : Planification et ERP : stocks, trésorerie et décisions
+
+| Terme | Définition |
+|---|---|
+| **Coût de possession du stock** | Coût annuel de détention d'un stock : capital immobilisé, espace, assurance, obsolescence, démarque. |
+| **Cycle de trésorerie (cash-to-cash)** | Jours de stock plus jours de crédit client moins jours de crédit fournisseur ; mesure le temps pendant lequel l'argent est immobilisé. |
+| **Niveau de service cible** | Taux de disponibilité visé pour un segment d'articles ; son coût marginal augmente avec le niveau visé. |
+| **Segmentation des articles** | Classement des articles selon leur valeur, leur rotation, la variabilité de leur demande ou leur criticité, pour leur appliquer des politiques différentes. |
+
+## Module Bac+5 : Piloter la performance avec les données et l'IA
+
+| Terme | Définition |
+|---|---|
+| **Fiche d'indicateur** | Document qui définit un indicateur : objectif, formule, périmètre, source, fréquence, propriétaire, seuils, limites. |
+| **Gouvernance des données** | Ensemble de règles et de responsabilités (propriétaires, règles de création, contrôles, revue) qui garantissent la qualité des données. |
+| **Indicateur de résultat / de moyens** | Un indicateur de résultat mesure ce qu'on obtient (taux de service, coût) ; un indicateur de moyens mesure ce qu'on fait pour l'obtenir (taux de remplissage, qualité des données). |
+| **OTIF (on time in full)** | Part des commandes livrées à la date promise et complètes. |
+| **Qualité des données** | Aptitude des données à être utilisées : exactitude, complétude, cohérence, fraîcheur, unicité. |
+
+## Module Bac+5 : Supply chain durable : mesurer, piloter, arbitrer
+
+| Terme | Définition |
+|---|---|
+| **Données primaires / secondaires** | Les données primaires sont mesurées (par exemple fournies par le prestataire) ; les données secondaires sont des valeurs moyennes ou estimées. |
+| **Empreinte carbone** | Quantité de gaz à effet de serre émise par une activité, un produit ou une organisation, exprimée en équivalent CO2. |
+| **Facteur d'émission** | Coefficient qui convertit une quantité d'activité (par exemple des tonnes-kilomètres) en émissions ; il peut couvrir la combustion seule ou le cycle complet de l'énergie. |
+| **Logistique inverse** | Flux de retour (retours clients, produits endommagés, emballages, produits en fin de vie) et leur orientation vers la remise en stock, le reconditionnement, le recyclage ou le rebut. |
+| **Prix interne du carbone** | Valeur attribuée en interne à la tonne de CO2 pour intégrer le carbone dans les décisions économiques. |
+| **Écoblanchiment (greenwashing)** | Allégation environnementale trompeuse ou non démontrée (par exemple « livraison verte » sans méthode ni preuve). |
+| **Économie circulaire** | Modèle qui prolonge la durée de vie des produits et des matériaux : réemploi, reconditionnement, réparation, recyclage, seconde vie. |
+| **Émissions de scope 1, 2 et 3** | Périmètres de comptabilité des gaz à effet de serre : le scope 1 couvre les émissions directes, le scope 2 l'énergie achetée, le scope 3 les autres émissions indirectes en amont et en aval (dont le transport par des prestataires et les achats). |
+
+## Module Bac+5 : Le coût de l'IA : business case, sobriété et bilan net
+
+| Terme | Définition |
+|---|---|
+| **Bilan net (carbone)** | Émissions évitées grâce à une optimisation moins émissions induites par le numérique et l'IA, sur la même période et le même périmètre. |
+| **Délai de retour (payback) / ROI** | Délai de retour : temps nécessaire pour que les gains cumulés couvrent l'investissement. ROI (retour sur investissement) : rapport entre le gain net et l'investissement. |
+| **Dérive d'un modèle** | Dégradation de la performance d'un modèle d'IA lorsque le contexte ou les données évoluent par rapport à ceux de son apprentissage. |
+| **Effet rebond** | Phénomène par lequel un gain d'efficacité stimule les volumes ou les usages et annule une partie du bénéfice attendu. |
+| **Inférence** | Utilisation d'un modèle d'IA déjà entraîné pour produire une réponse ; répétée à grande échelle, elle contribue à l'empreinte de l'IA. |
+| **Preuve de concept (POC)** | Essai limité d'une solution avec des critères de réussite définis à l'avance ; le risque est le pilote permanent, sans décision d'industrialisation. |
+| **Sobriété numérique** | Démarche qui vise la valeur au moindre coût et à la moindre empreinte : choisir la solution la plus simple qui suffit. |
+
+## Module Bac+5 : Organiser et conduire la transformation
+
+| Terme | Définition |
+|---|---|
+| **Comité de pilotage (COPIL)** | Instance de gouvernance d'un projet qui prend les décisions stratégiques, arbitre et débloque les ressources, autour du sponsor. |
+| **Conduite du changement** | Démarche qui accompagne les personnes dans l'adoption d'une transformation : analyse d'impact, communication, formation, accompagnement, mesure de l'adoption. |
+| **Gestion des bénéfices** | Suivi de la réalisation des bénéfices attendus d'un projet : propriétaires, indicateurs, dates de revue, actions déclenchantes. |
+| **Matrice RACI** | Tableau qui précise, pour chaque décision ou livrable, qui est Responsable, Approbateur, Consulté et Informé. |
+| **Mise en production complète ou progressive (full / soft go live)** | La mise en production complète bascule tout le périmètre d'un coup ; la progressive bascule par étapes, par site ou par fonction. |
+| **Réseau de relais métier** | Ensemble de key users ou de référents formés pour accompagner leurs collègues dans l'adoption d'un changement. |
+
+## Module Bac+5 : Comment l'IA transforme la supply chain
+
+| Terme | Définition |
+|---|---|
+| **Copilote (IA)** | Assistant d'IA intégré à un outil ou à un poste de travail, qui explique, résume et propose, l'utilisateur gardant la décision. |
+| **Niveau d'autonomie (IA)** | Degré de délégation donné à un système d'IA : informer, recommander, préparer avec validation humaine, exécuter dans un périmètre limité, exécuter de façon autonome. |
+| **Souveraineté des données** | Maîtrise de l'hébergement, de l'accès et de la juridiction applicable aux données d'une organisation. |
+| **Supply chain autonome** | Vision d'une chaîne logistique où des systèmes d'IA surveillent, décident et agissent sur de nombreux flux avec une supervision humaine minimale. |
+| **Veille stratégique** | Démarche régulière de suivi des technologies, des usages, de la réglementation et des retours d'expérience, avec une grille d'évaluation des annonces. |
+| **Visibilité de bout en bout** | Capacité à suivre commandes, stocks et transports sur l'ensemble de la chaîne, y compris chez les partenaires, grâce au partage de données. |
+
+## Module Bac+5 : Challenger une simulation IA avant un comité de direction
+
+| Terme | Définition |
+|---|---|
+| **Analyse de sensibilité** | Étude de l'effet de la variation d'une hypothèse (volumes, délais, capacités) sur les résultats d'une simulation, pour identifier celles qui changent la décision. |
+| **Backtesting (test sur l'historique)** | Vérification qu'un modèle ou une simulation retrouve les résultats d'une période passée connue. |
+| **Explicabilité** | Capacité à expliquer, en termes simples, pourquoi un système ou une recommandation produit un résultat. |
+| **Hypothèse implicite** | Supposition utilisée par une simulation ou un plan sans être écrite (par exemple une capacité constante ou l'absence de retours). |
+
 ---
 
 *(Chaque nouveau module ajoute ici sa propre section.)*
